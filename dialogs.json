@@ -1,0 +1,779 @@
+{
+  "scenes": [
+    {
+        "id": 0,
+        "background": "..\\..\\assets\\background\\black.jpg",
+        "text": "Кажется, будильник сегодня особенно громкий.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 1 }
+        ]  
+    },
+    {
+        "id": 1,
+        "background": "..\\..\\assets\\background\\black.jpg",
+        "text": "Добро пожаловать домой.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 2 }
+        ]  
+    },
+    {
+        "id": 2,
+        "background": "..\\..\\assets\\background\\room.jpg",
+        "text": "В комнате холоднее, чем обычно. Кажется кто-то забыл закрыть окно перед сном.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "choices": [
+            { "next": 3 }
+        ]  
+    },
+    {
+        "id": 3,
+        "background": "..\\..\\assets\\background\\room.jpg",
+        "text": "…!!",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "choices": [
+            { "next": 4 }
+        ]  
+    },
+    {
+        "id": 4,
+        "background": "..\\..\\assets\\background\\room.jpg",
+        "text": "Похоже,  открытое окно – не единственное, о чем я забыл. Голод со вчерашнего дня никуда не исчез…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "choices": [
+            { "next": 5 }
+        ]  
+    },
+    {
+        "id": 5,
+        "background": "..\\..\\assets\\background\\room.jpg",
+        "text": "От боли сводит желудок…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "choices": [
+            { "next": 6 }
+        ]  
+    },
+    {
+        "id": 6,
+        "background": "..\\..\\assets\\background\\room.jpg",
+        "text": "Нужно посмотреть, осталось ли у меня чего в холодильнике..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "choices": [
+            { "next": 7 }
+        ]  
+    },
+    {
+        "id": 7,
+        "background": "..\\..\\assets\\background\\room.jpg",
+        "text": "..Но… может я могу еще немного посидеть здесь.. а потом…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "choices": [
+            { "next": 8 }
+        ]  
+    },
+    {
+        "id": 8,
+        "background": "..\\..\\assets\\background\\room.jpg",
+        "text": "..Но… может я могу еще немного посидеть здесь.. а потом…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "choices": [
+        { "text": "пойти на кухню", "next": 9 },
+        { "text": "подождать еще", "next": 10 }
+        ]  
+    },
+    {
+        "id": 9,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "Вы открываете холодильник, чувствуя как холодный ветерок падает на ваше лицо.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "choices": [
+            { "next": 11 }
+        ]  
+    },
+    {
+        "id": 10,
+        "background": "..\\..\\assets\\background\\black.jpg",
+        "text": "…ты чувствуешь как живот “липнет” к спине",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 9 }
+        ]  
+    },
+    {
+        "id": 11,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Он пуст, как и ваш желудок.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 12 }
+        ]  
+    },
+    {
+        "id": 12,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Денег у меня почти не осталось, но в такой час на улицу я точно не пойду.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 13 }
+        ]  
+    },
+    {
+        "id": 13,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Может я закажу что-нибудь, а завтра решу что делать дальше?",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+        { "text": "Заказать еду", "next": 14 },
+        { "text": "Поберечь сбережения", "next": 15 }
+        ]  
+    },
+    {
+        "id": 14,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "…?",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 16 }
+        ]  
+    },
+    {
+        "id": 16,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 17 }
+        ]  
+    },
+    {
+        "id": 17,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Я заказал немного лапши. До завтра этого точно хватит.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 18 }
+        ]  
+    },
+    {
+        "id": 18,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "С завтрашнего дня я начну искать работу. Точно.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "choices": [
+            { "next": 19 }
+        ]  
+    },
+    {
+        "id": 19,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "Тяжело жить одному...Иногда, неплохо иметь кого-то, кто заставляет тебя не лениться.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "choices": [
+            { "next": 20 }
+        ]  
+    },
+    {
+        "id": 20,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "Вы присаживаетесь за стол в ожидании ужина…или завтрака.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 21 }
+        ]  
+    },
+    {
+        "id": 21,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "На столе валяются крошки черствого хлеба, на краю аккуратно сложена башенкой грязная посуда.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 22 }
+        ]  
+    },
+    {
+        "id": 22,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "Ей уже несколько дней.. вы не собираетесь ее убирать.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 23 }
+        ]  
+    },
+    {
+        "id": 23,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "Вы думаете над тем, каким бы вы были плохим хозяином для собаки.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 24 }
+        ]  
+    },
+    {
+        "id": 24,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "Я просто не был готов к ответственности !",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "choices": [
+            { "next": 25 }
+        ]  
+    },
+    {
+        "id": 25,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "…!",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "choices": [
+            { "next": 26 }
+        ]  
+    },
+    {
+        "id": 26,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "…должно быть… это доставщик.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "choices": [
+            { "next": 27 }
+        ]  
+    },
+    {
+        "id": 27,
+        "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
+        "text": "Вы неохотно поднимаетесь со стула и идете к входной двери.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 28 }
+        ]  
+    },
+    {
+        "id": 28,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 29 }
+        ]  
+    },
+    {
+        "id": 29,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Вы слышите стук собственного сердца.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 30 }
+        ]  
+    },
+    {
+        "id": 30,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Доставка !",
+        "font_color": "#FFFF00",
+        "sprite": null,
+        "choices": [
+            { "next": 31 }
+        ]  
+    },
+    {
+        "id": 31,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Вы не можете заставить себя открыть дверь..",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 32 }
+        ]  
+    },
+    {
+        "id": 32,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "choices": [
+            { "next": 33 }
+        ]  
+    },
+    {
+        "id": 33,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Не могли бы вы оставить коробку под дверью?",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "choices": [
+            { "next": 34 }
+        ]  
+    },
+    {
+        "id": 34,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Конечно.. доброй ночи !",
+        "font_color": "#FFFF00",
+        "sprite": null,
+        "choices": [
+            { "next": 35 }
+        ]  
+    },
+    {
+        "id": 35,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 36 }
+        ]  
+    },
+    {
+        "id": 36,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Доставщик ушел.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 37 }
+        ]  
+    },
+    {
+        "id": 37,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Подождав еще несколько секунд, вы медленно открываете дверь.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 38 }
+        ]  
+    },
+    {
+        "id": 38,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Коробка, с прикрепленными к ней палочками, стояла у порога. Вы берете ее в руки и поспешно закрываете дверь.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 39 }
+        ]  
+    },
+    {
+        "id": 39,
+        "background": "..\\..\\assets\\background\\kitchen.jpg",
+        "text": "Горячая лапша приятно греет руки через тонкий слой картона. Оно того стоило..",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 40 }
+        ]  
+    },
+    {
+        "id": 40,
+        "background": "..\\..\\assets\\background\\kitchen.jpg",
+        "text": "Вы садитесь на недавно остывший стул, пахнет вкусно.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 41 }
+        ]  
+    },
+    {
+        "id": 41,
+        "background": "..\\..\\assets\\background\\kitchen.jpg",
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 42 }
+        ]  
+    },
+    {
+        "id": 42,
+        "background": "..\\..\\assets\\background\\kitchen.jpg",
+        "text": "К сожалению, о вкусе этой бюджетной лапши так же не скажешь.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 43 }
+        ]  
+    },
+    {
+        "id": 43,
+        "background": "..\\..\\assets\\background\\kitchen.jpg",
+        "text": "Под приятное чувство благодарного желудка вы откладываете пустую коробку к символичной башне посуды.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 44 }
+        ]  
+    },
+    {
+        "id": 44,
+        "background": "..\\..\\assets\\background\\kitchen.jpg",
+        "text": "Завтрашний ужин будет лучше, я уверен..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "choices": [
+            { "next": 45 }
+        ]  
+    },
+    {
+        "id": 45,
+        "background": "..\\..\\assets\\background\\kitchen.jpg",
+        "text": "…после того как я найду работу, конечно же",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "choices": [
+            { "next": 46 }
+        ]  
+    },
+    {
+        "id": 46,
+        "background": "..\\..\\assets\\background\\room.jpg",
+        "text": "В очередной раз просыпаться и засыпать где-то посреди ночи не лучшая идея.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 47 }
+        ]  
+    },
+    {
+        "id": 47,
+        "background": "..\\..\\assets\\background\\room.jpg",
+        "text": "Кошмары не дают вам покоя уже не первый год, но… разве не нужно с эти что-то делать?",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 48 }
+        ]  
+    },
+    {
+        "id": 48,
+        "background": "..\\..\\assets\\background\\room.jpg",
+        "text": "Завтра я попробую снова.. уверен, результат будет.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "choices": [
+            { "next": 49 }
+        ]  
+    },
+    {
+        "id": 49,
+        "background": "..\\..\\assets\\background\\black.jpg",
+        "text": "Вы ложитесь обратно в свою не застеленную постель... Она пахнет пылью.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 50 }
+        ]  
+    },
+    {
+        "id": 50,
+        "background": "..\\..\\assets\\background\\black.jpg",
+        "text": "Вы желаете себе доброй ночи, прекрасно зная что именно будет дальше.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 51 }
+        ]  
+    },
+    {
+        "id": 51,
+        "background": "..\\..\\assets\\background\\black.jpg",
+        "text": "Сладких снов.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 52 }
+        ]  
+    },
+    {
+        "id": 52,
+        "background": "..\\..\\assets\\background\\white.jpg",
+        "text": "...",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 53 }
+        ]  
+    },
+    {
+        "id": 15,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Верно.. спускать последние деньги на скудный ужин не лучшая идея..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "choices": [
+            { "next": 54 }
+        ]  
+    },
+    {
+        "id": 54,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "С завтрашнего дня я начну искать работу. Точно.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "choices": [
+            { "next": 55 }
+        ]  
+    },
+    {
+        "id": 55,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Тяжело жить одному...Иногда, неплохо иметь кого-то, кто заставляет тебя не лениться.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "choices": [
+            { "next": 56 }
+        ]  
+    },
+    {
+        "id": 56,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Сил на уборку нет..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "choices": [
+            { "next": 57 }
+        ]  
+    },
+    {
+        "id": 57,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "…придется лечь спать голодным.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "choices": [
+            { "next": 58 }
+        ]  
+    },
+    {
+        "id": 58,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Вы смиренно закрываете холодильник, ощущая тяжесть подступающей к горлу ответственности.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 59 }
+        ]  
+    },
+    {
+        "id": 59,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "…!!",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "choices": [
+            { "next": 60 }
+        ]  
+    },
+    {
+        "id": 60,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "…кто может ходить по квартирам в такой час ??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "choices": [
+            { "next": 61 }
+        ]  
+    },
+    {
+        "id": 61,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Вы слышите стук собственного сердца.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 62 }
+        ]  
+    },
+    {
+        "id": 62,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Подходить к двери не стоит, но..",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 63 }
+        ]  
+    },
+    {
+        "id": 63,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "…??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "choices": [
+            { "next": 64 }
+        ]  
+    },
+    {
+        "id": 64,
+        "background": "..\\..\\assets\\background\\fridge.jpg",
+        "text": "Стараясь не скрипнуть полом, вы осторожно проходите по коридору к входной двери.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 65 }
+        ]  
+    },
+    {
+        "id": 65,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Звонок не умолкает, сильнее нервируя и напрягая с каждым разом",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 66 }
+        ]  
+    },
+    {
+        "id": 66,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Ноа? Ты там ?",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 67 }
+        ]  
+    },
+    {
+        "id": 67,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "....",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 68 }
+        ]  
+    },
+    {
+        "id": 68,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Голос кажется знакомым…",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 69 }
+        ]  
+    },
+    {
+        "id": 69,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "В голове вырисовывается некий образ молодого парня с темными волосами. Кто-то не просто знакомый.. кто-то родной.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 70 }
+        ]  
+    },
+    {
+        "id": 70,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Его лицо размыто память.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 71 }
+        ]  
+    },
+    {
+        "id": 71,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Ноа, это я. Открой дверь. Я забыл ключи дома",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 72 }
+        ]  
+    },
+    {
+        "id": 72,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "Не могу же я ждать, пока придут родители ? Здесь холодно.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 73 }
+        ]  
+    },
+    {
+        "id": 72,
+        "background": "..\\..\\assets\\background\\door.jpg",
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 73 }
+        ]  
+    },
+    {
+        "id": 73,
+        "background": "..\\..\\assets\\background\\door1.jpg",
+        "text": "Руки неуверенно тянуться к ручке двери. Кажется, сердце сейчас выпрыгнет наружу.",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 74 }
+        ]  
+    },
+    {
+        "id": 74,
+        "background": "..\\..\\assets\\background\\opened_door.jpg",
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 75 }
+        ]  
+    },
+    {
+        "id": 75,
+        "background": "..\\..\\assets\\background\\opened_door.jpg",
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "choices": [
+            { "next": 76 }
+        ]  
+    },
+
+
+
+    {
+        "id": 22,
+        "background": "..\\..\\assets\\background\\black.jpg",
+        "text": "Кажется, будильник сегодня особенно громкий.»",
+        "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "choices": [
+        { "text": "выва", "next": 1 },
+        { "text": "аааааа", "next": 2 }
+        ]  
+    }
+  ]
+}
