@@ -11465,7 +11465,7 @@ object Form2: TForm2
     end
   end
   object Button1: TButton
-    Left = 384
+    Left = 408
     Top = 240
     Width = 193
     Height = 33
@@ -11474,8 +11474,8 @@ object Form2: TForm2
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 384
-    Top = 288
+    Left = 408
+    Top = 296
     Width = 193
     Height = 33
     Caption = 'Button2'

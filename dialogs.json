@@ -6,6 +6,7 @@
         "text": "Кажется, будильник сегодня особенно громкий.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 1 }
         ]  
@@ -16,6 +17,7 @@
         "text": "Добро пожаловать домой.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 2 }
         ]  
@@ -26,6 +28,7 @@
         "text": "В комнате холоднее, чем обычно. Кажется кто-то забыл закрыть окно перед сном.",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 3 }
         ]  
@@ -36,6 +39,7 @@
         "text": "…!!",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 4 }
         ]  
@@ -46,6 +50,7 @@
         "text": "Похоже,  открытое окно – не единственное, о чем я забыл. Голод со вчерашнего дня никуда не исчез…",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 5 }
         ]  
@@ -56,6 +61,7 @@
         "text": "От боли сводит желудок…",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 6 }
         ]  
@@ -66,6 +72,7 @@
         "text": "Нужно посмотреть, осталось ли у меня чего в холодильнике..",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 7 }
         ]  
@@ -76,6 +83,7 @@
         "text": "..Но… может я могу еще немного посидеть здесь.. а потом…",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 8 }
         ]  
@@ -86,6 +94,7 @@
         "text": "..Но… может я могу еще немного посидеть здесь.. а потом…",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "left",
         "choices": [
         { "text": "пойти на кухню", "next": 9 },
         { "text": "подождать еще", "next": 10 }
@@ -97,6 +106,7 @@
         "text": "Вы открываете холодильник, чувствуя как холодный ветерок падает на ваше лицо.",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 11 }
         ]  
@@ -107,6 +117,7 @@
         "text": "…ты чувствуешь как живот “липнет” к спине",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 9 }
         ]  
@@ -117,6 +128,7 @@
         "text": "Он пуст, как и ваш желудок.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 12 }
         ]  
@@ -127,6 +139,7 @@
         "text": "Денег у меня почти не осталось, но в такой час на улицу я точно не пойду.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 13 }
         ]  
@@ -137,6 +150,7 @@
         "text": "Может я закажу что-нибудь, а завтра решу что делать дальше?",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
         { "text": "Заказать еду", "next": 14 },
         { "text": "Поберечь сбережения", "next": 15 }
@@ -148,6 +162,7 @@
         "text": "…?",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 16 }
         ]  
@@ -158,6 +173,7 @@
         "text": "…",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 17 }
         ]  
@@ -168,6 +184,7 @@
         "text": "Я заказал немного лапши. До завтра этого точно хватит.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 18 }
         ]  
@@ -178,6 +195,7 @@
         "text": "С завтрашнего дня я начну искать работу. Точно.",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 19 }
         ]  
@@ -188,6 +206,7 @@
         "text": "Тяжело жить одному...Иногда, неплохо иметь кого-то, кто заставляет тебя не лениться.",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 20 }
         ]  
@@ -198,6 +217,7 @@
         "text": "Вы присаживаетесь за стол в ожидании ужина…или завтрака.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 21 }
         ]  
@@ -208,6 +228,7 @@
         "text": "На столе валяются крошки черствого хлеба, на краю аккуратно сложена башенкой грязная посуда.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 22 }
         ]  
@@ -218,6 +239,7 @@
         "text": "Ей уже несколько дней.. вы не собираетесь ее убирать.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 23 }
         ]  
@@ -228,6 +250,7 @@
         "text": "Вы думаете над тем, каким бы вы были плохим хозяином для собаки.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 24 }
         ]  
@@ -238,6 +261,7 @@
         "text": "Я просто не был готов к ответственности !",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 25 }
         ]  
@@ -248,6 +272,7 @@
         "text": "…!",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 26 }
         ]  
@@ -258,6 +283,7 @@
         "text": "…должно быть… это доставщик.",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 27 }
         ]  
@@ -268,6 +294,7 @@
         "text": "Вы неохотно поднимаетесь со стула и идете к входной двери.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 28 }
         ]  
@@ -278,6 +305,7 @@
         "text": "…",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 29 }
         ]  
@@ -288,6 +316,7 @@
         "text": "Вы слышите стук собственного сердца.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 30 }
         ]  
@@ -298,6 +327,7 @@
         "text": "Доставка !",
         "font_color": "#FFFF00",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 31 }
         ]  
@@ -308,6 +338,7 @@
         "text": "Вы не можете заставить себя открыть дверь..",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 32 }
         ]  
@@ -318,6 +349,7 @@
         "text": "…",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 33 }
         ]  
@@ -328,6 +360,7 @@
         "text": "Не могли бы вы оставить коробку под дверью?",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 34 }
         ]  
@@ -338,6 +371,7 @@
         "text": "Конечно.. доброй ночи !",
         "font_color": "#FFFF00",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 35 }
         ]  
@@ -348,6 +382,7 @@
         "text": "…",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 36 }
         ]  
@@ -358,6 +393,7 @@
         "text": "Доставщик ушел.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 37 }
         ]  
@@ -368,6 +404,7 @@
         "text": "Подождав еще несколько секунд, вы медленно открываете дверь.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 38 }
         ]  
@@ -378,6 +415,7 @@
         "text": "Коробка, с прикрепленными к ней палочками, стояла у порога. Вы берете ее в руки и поспешно закрываете дверь.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 39 }
         ]  
@@ -388,6 +426,7 @@
         "text": "Горячая лапша приятно греет руки через тонкий слой картона. Оно того стоило..",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 40 }
         ]  
@@ -398,6 +437,7 @@
         "text": "Вы садитесь на недавно остывший стул, пахнет вкусно.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 41 }
         ]  
@@ -408,6 +448,7 @@
         "text": "…",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 42 }
         ]  
@@ -418,6 +459,7 @@
         "text": "К сожалению, о вкусе этой бюджетной лапши так же не скажешь.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 43 }
         ]  
@@ -428,6 +470,7 @@
         "text": "Под приятное чувство благодарного желудка вы откладываете пустую коробку к символичной башне посуды.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 44 }
         ]  
@@ -438,6 +481,7 @@
         "text": "Завтрашний ужин будет лучше, я уверен..",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 45 }
         ]  
@@ -448,6 +492,7 @@
         "text": "…после того как я найду работу, конечно же",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 46 }
         ]  
@@ -458,6 +503,7 @@
         "text": "В очередной раз просыпаться и засыпать где-то посреди ночи не лучшая идея.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 47 }
         ]  
@@ -468,6 +514,7 @@
         "text": "Кошмары не дают вам покоя уже не первый год, но… разве не нужно с эти что-то делать?",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 48 }
         ]  
@@ -478,6 +525,7 @@
         "text": "Завтра я попробую снова.. уверен, результат будет.",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 49 }
         ]  
@@ -488,6 +536,7 @@
         "text": "Вы ложитесь обратно в свою не застеленную постель... Она пахнет пылью.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 50 }
         ]  
@@ -498,6 +547,7 @@
         "text": "Вы желаете себе доброй ночи, прекрасно зная что именно будет дальше.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 51 }
         ]  
@@ -508,6 +558,7 @@
         "text": "Сладких снов.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 52 }
         ]  
@@ -518,8 +569,9 @@
         "text": "...",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
-            { "next": 53 }
+            { "next": 78 }
         ]  
     },
     {
@@ -528,6 +580,7 @@
         "text": "Верно.. спускать последние деньги на скудный ужин не лучшая идея..",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 54 }
         ]  
@@ -538,6 +591,7 @@
         "text": "С завтрашнего дня я начну искать работу. Точно.",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 55 }
         ]  
@@ -548,6 +602,7 @@
         "text": "Тяжело жить одному...Иногда, неплохо иметь кого-то, кто заставляет тебя не лениться.",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 56 }
         ]  
@@ -558,6 +613,7 @@
         "text": "Сил на уборку нет..",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 57 }
         ]  
@@ -568,6 +624,7 @@
         "text": "…придется лечь спать голодным.",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 58 }
         ]  
@@ -578,6 +635,7 @@
         "text": "Вы смиренно закрываете холодильник, ощущая тяжесть подступающей к горлу ответственности.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 59 }
         ]  
@@ -588,6 +646,7 @@
         "text": "…!!",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 60 }
         ]  
@@ -598,6 +657,7 @@
         "text": "…кто может ходить по квартирам в такой час ??",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 61 }
         ]  
@@ -608,6 +668,7 @@
         "text": "Вы слышите стук собственного сердца.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 62 }
         ]  
@@ -618,6 +679,7 @@
         "text": "Подходить к двери не стоит, но..",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 63 }
         ]  
@@ -628,6 +690,7 @@
         "text": "…??",
         "font_color": "#000000",
         "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "sprite_position": "left",
         "choices": [
             { "next": 64 }
         ]  
@@ -638,6 +701,7 @@
         "text": "Стараясь не скрипнуть полом, вы осторожно проходите по коридору к входной двери.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 65 }
         ]  
@@ -648,6 +712,7 @@
         "text": "Звонок не умолкает, сильнее нервируя и напрягая с каждым разом",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 66 }
         ]  
@@ -658,6 +723,7 @@
         "text": "Ноа? Ты там ?",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 67 }
         ]  
@@ -668,6 +734,7 @@
         "text": "....",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 68 }
         ]  
@@ -678,6 +745,7 @@
         "text": "Голос кажется знакомым…",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 69 }
         ]  
@@ -688,6 +756,7 @@
         "text": "В голове вырисовывается некий образ молодого парня с темными волосами. Кто-то не просто знакомый.. кто-то родной.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 70 }
         ]  
@@ -698,6 +767,7 @@
         "text": "Его лицо размыто память.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 71 }
         ]  
@@ -708,6 +778,7 @@
         "text": "Ноа, это я. Открой дверь. Я забыл ключи дома",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 72 }
         ]  
@@ -718,6 +789,7 @@
         "text": "Не могу же я ждать, пока придут родители ? Здесь холодно.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 73 }
         ]  
@@ -728,6 +800,7 @@
         "text": "…",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 73 }
         ]  
@@ -738,31 +811,587 @@
         "text": "Руки неуверенно тянуться к ручке двери. Кажется, сердце сейчас выпрыгнет наружу.",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 74 }
         ]  
     },
     {
         "id": 74,
-        "background": "..\\..\\assets\\background\\opened_door.jpg",
+        "background": "..\\..\\assets\\background\\door.jpg",
         "text": "…",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 75 }
         ]  
     },
     {
         "id": 75,
-        "background": "..\\..\\assets\\background\\opened_door.jpg",
+        "background": "..\\..\\assets\\background\\opened_door.png",
         "text": "…",
         "font_color": "#000000",
         "sprite": null,
+        "sprite_position": "left",
         "choices": [
             { "next": 76 }
         ]  
     },
-
+    {
+        "id": 76,
+        "background": "..\\..\\assets\\background\\black.jpg",
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 77 }
+        ]  
+    },
+   {
+        "id": 77,
+        "background": "..\\..\\assets\\background\\white.jpg",
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 78 }
+        ]  
+    },
+   {
+        "id": 78,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg",
+        "text": "Сегодня Мэди приготовил замечательный завтрак !",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 79 }
+        ]  
+    },
+   {
+        "id": 79,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg",
+        "text": "Даже вкуснее чем у мамы..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 80 }
+        ]  
+    },
+   {
+        "id": 80,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg",
+        "text": "Сегодня очень-очень важный день, я с братом иду на войну водяных шариков. Он обещал подготовить меня !",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 81 }
+        ]  
+    },
+   {
+        "id": 81,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg",
+        "text": "…!!",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 82 }
+        ]  
+    },
+   {
+        "id": 82,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg",
+        "text": "Должно быть, это он!",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 83 }
+        ]  
+    },
+   {
+        "id": 83,
+        "background": "..\\..\\assets\\background\\hall_light.jpg",
+        "text": "Вы бежите сквозь коридор к входной двери.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 84 }
+        ]  
+    },
+   {
+        "id": 84,
+        "background": "..\\..\\assets\\background\\door.jpg", 
+        "text": "Ваш брат уже стоит на проходе.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 85 }
+        ]  
+    },
+   {
+        "id": 85,
+        "background": "..\\..\\assets\\background\\door.jpg", 
+        "text": "Долго ты шел",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 86 }
+        ]  
+    },
+   {
+        "id": 86,
+        "background": "..\\..\\assets\\background\\door.jpg", 
+        "text": "Неправда ! Я бежал со всех ног.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 87 }
+        ]  
+    },
+   {
+        "id": 87,
+        "background": "..\\..\\assets\\background\\door.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 88 }
+        ]  
+    },
+   {
+        "id": 88,
+        "background": "..\\..\\assets\\background\\door.jpg", 
+        "text": "Ладно, извини… но ты же помнишь, что ты обещал ??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 89 }
+        ]  
+    },
+   {
+        "id": 89,
+        "background": "..\\..\\assets\\background\\door.jpg", 
+        "text": "Обещал? Что я обещал??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 90 }
+        ]  
+    },
+   {
+        "id": 90,
+        "background": "..\\..\\assets\\background\\door.jpg", 
+        "text": "Не издевайся ! Мы же пойдем на игру?",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 91 }
+        ]  
+    },
+   {
+        "id": 91,
+        "background": "..\\..\\assets\\background\\door.jpg", 
+        "text": "..Пойдем. Конечно пойдем.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 92 }
+        ]  
+    },
+   {
+        "id": 92,
+        "background": "..\\..\\assets\\background\\door.jpg", 
+        "text": "Выйди во двор, я скоро подойду.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 93 }
+        ]  
+    },
+   {
+        "id": 93,
+        "background": "..\\..\\assets\\background\\door.jpg", 
+        "text": "Вы оббегаете брата и спешите за порог.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 94 }
+        ]  
+    },
+   {
+        "id": 94,
+        "background": "..\\..\\assets\\background\\white.jpg", 
+        "text": "Теплое летнее солнце приятно греет кожу. Ленивая пора года, свободная от учебных забот.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 95 }
+        ]  
+    },
+   {
+        "id": 95,
+        "background": "..\\..\\assets\\background\\white.jpg", 
+        "text": "Хотели бы вы остаться здесь навсегда..",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 96 }
+        ]  
+    },
+   {
+        "id": 96,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Вдыхая полной грудью, вы наслаждаетесь запахом свежескошенной травы",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 97 }
+        ]  
+    },
+   {
+        "id": 97,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Готов ?",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 98 }
+        ]  
+    },
+   {
+        "id": 98,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Ой!.. Конечно готов !",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 99 }
+        ]  
+    },
+   {
+        "id": 99,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Тогда начинаем.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 100 }
+        ]  
+    },
+    {
+        "id": 100,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Вы слышите как резиновый слой воздушных шариков поскрипывает у вашего брата в руках.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 101 }
+        ]  
+    },
+    {
+        "id": 101,
+        "background": "..\\..\\assets\\background\\background_1.jpg", 
+        "text": "",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+        { "text": "бежать", "next": 102 },
+        { "text": "бороться", "next": 103 }
+        ] 
+    },
+    {
+        "id": 102,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Вы отступаете..",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 104 }
+        ]  
+    },
+    {
+        "id": 104,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Я не могу…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 105 }
+        ]  
+    },
+    {
+        "id": 105,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 106 }
+        ]  
+    },
+    {
+        "id": 106,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Ничего страшного, пойдешь с нами в следующем году.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 107 }
+        ]  
+    },
+    {
+        "id": 107,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Извини…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\4.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 108 }
+        ]  
+    },
+    {
+        "id": 108,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Думаешь, что постоянно убегая от проблемы, ты сможешь ее решить?",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 109 }
+        ]  
+    },
+    {
+        "id": 109,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Хватит убегать.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 110 }
+        ]  
+    },
+    {
+        "id": 103,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Ваш ход",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+        { "text": "сосредоточиться", "next": 111 },
+        { "text": "толкнуть", "next": 112 }
+        ]  
+    },
+    {
+        "id": 111,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Вы сосредотачиваетесь, готовясь к атаке.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 113 }
+        ]  
+    },
+    {
+        "id": 113,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Мэдисон швыряет шарик с водой. Он пролетает мимо. Оставшихся очков 50/50",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 114 }
+        ]  
+    },
+    {
+        "id": 112,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Вы толкаете Мэдисона. Он уворачивается..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 115 }
+        ]  
+    },
+    {
+        "id": 115,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Мэдисон швыряет шарик с водой. Меткое попадание. Оставшихся очков 40/50",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 114 }
+        ]  
+    },
+    {
+        "id": 114,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Ваш ход",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+        { "text": "сосредоточиться", "next": 116 },
+        { "text": "толкнуть", "next": 117 }
+        ]  
+    },
+    {
+        "id": 116,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Вы сосредотачиваетесь, готовясь к атаке.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 118 }
+        ]  
+    },
+    {
+        "id": 118,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Мэдисон швыряет шарик с водой. Он пролетает мимо. Оставшихся очков 50/50",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 119 }
+        ]  
+    },
+    {
+        "id": 117,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Вы толкаете Мэдисона. Он невольно покачивается.. Оставшихся очков Мэдисона 55/70",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 1190 }
+        ]  
+    },
+    {
+        "id": 1190,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Мэдисон швыряет шарик с водой. Меткое попадание. Оставшихся очков 40/50",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 119 }
+        ]  
+    },
+    {
+        "id": 119,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Ваш ход",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+        { "text": "сосредоточиться", "next": 120 },
+        { "text": "толкнуть", "next": 121 }
+        ]  
+    },
+    {
+        "id": 120,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Вы сосредотачиваетесь, готовясь к атаке.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 122 }
+        ]  
+    },
+    {
+        "id": 122,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Мэдисон швыряет шарик с водой. Он пролетает мимо. Оставшихся очков ",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 119 }
+        ]  
+    },
+    {
+        "id": 121,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Вы толкаете Мэдисона. Он невольно покачивается.. Оставшихся очков Мэдисона ",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 123 }
+        ]  
+    },
+    {
+        "id": 123,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Мэдисон швыряет шарик с водой. Меткое попадание. Оставшихся очков ",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 119 }
+        ]  
+    },
+    {
+        "id": 124,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Вы победили!",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 125 }
+        ]  
+    },
+    {
+        "id": 125,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "Отлично! Никогда не прекращай пытаться.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 126 }
+        ]  
+    },
 
 
     {

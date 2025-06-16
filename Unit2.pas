@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs,
   Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Imaging.pngimage, Vcl.Imaging.jpeg,
-  System.JSON, System.IOUtils;
+  System.JSON, System.IOUtils, Math;
 
 type
   TGameState = record
@@ -19,6 +19,8 @@ type
     NextScene: Integer;
     NextScene1: Integer;
     NextScene2: Integer;
+    MadHealth: Integer;
+    NoaHealth: Integer;
   end;
 
   TForm2 = class(TForm)
@@ -175,7 +177,7 @@ end;
 procedure TForm2.SetScene;
 var
   Item: TJSONObject;
-  background_filename, sprite_filename: string;
+  background_filename, sprite_filename, sprite_position: string;
   choices: TJSONArray;
 begin
   //if (FGameState.CurrentScene >= 0) and (FGameState.CurrentScene < ScenesArr.Count) then
@@ -209,11 +211,17 @@ begin
 
   // Loading sprite image
   sprite_filename := Item.GetValue<string>('sprite');
+  sprite_position := Item.GetValue<string>('sprite_position');
   if FileExists(sprite_filename) then
     begin
       imgCharacter.Picture.LoadFromFile(sprite_filename);
       imgCharacter.Stretch := True; // Optional: scales image to fit form
       imgCharacter.Visible := True;
+
+      if sprite_position = 'center' then
+        imgCharacter.Left := (Form1.Width - imgCharacter.Width) div 2
+      else if sprite_position = 'left' then
+        imgCharacter.Left := 0;
     end
   else if sprite_filename = '' then
     begin
@@ -244,8 +252,36 @@ begin
 
   // Setting dialogue text
   lblText.Caption := Item.GetValue<string>('text');
-  lblText.Font.Color := HexToColor(Item.GetValue<string>('font_color'));;
-  //lblText.Caption := 'привет';
+  lblText.Font.Color := HexToColor(Item.GetValue<string>('font_color'));
+
+
+
+  // Fight
+  if FGameState.CurrentScene = 1190 then
+    begin
+      FGameState.MadHealth := 75;
+      FGameState.NoaHealth := 40;
+    end
+  else if FGameState.CurrentScene = 118 then
+    begin
+      FGameState.MadHealth := 75;
+      FGameState.NoaHealth := 50;
+    end
+  else if FGameState.CurrentScene = 122 then
+    begin
+      FGameState.NoaHealth := Min(FGameState.NoaHealth + 10, 50);
+      lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
+    end
+  else if FGameState.CurrentScene = 121 then
+    begin
+      FGameState.MadHealth := FGameState.MadHealth - 10;
+      lblText.Caption := lblText.Caption + IntToStr(FGameState.MadHealth) + '/75';
+    end
+  else if FGameState.CurrentScene = 123 then
+    begin
+      FGameState.NoaHealth := FGameState.NoaHealth - 10;
+      lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
+    end;
 
   EnsureVisible;
 
@@ -363,9 +399,16 @@ begin
   try
     //CheckGameStarted;
     // FGameState.CurrentScene := FGameState.CurrentScene + 1;
-    if FGameState.NextScene <> FGameState.CurrentScene then
-      FGameState.CurrentScene := FGameState.NextScene;
-      SetScene;
+    if (FGameState.CurrentScene = 123) and ((FGameState.MadHealth = 5) or (FGameState.NoaHealth = 10)) then
+      begin
+        FGameState.CurrentScene := 124;
+        SetScene;
+      end
+    else if FGameState.NextScene <> FGameState.CurrentScene then
+      begin
+        FGameState.CurrentScene := FGameState.NextScene;
+        SetScene;
+      end;
 //    SaveGame;
   except
     on E: Exception do
