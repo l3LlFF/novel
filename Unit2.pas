@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs,
   Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Imaging.pngimage, Vcl.Imaging.jpeg,
-  System.JSON, System.IOUtils, Math;
+  System.JSON, System.IOUtils, Math, Vcl.Imaging.GIFImg;
 
 type
   TGameState = record
@@ -21,6 +21,8 @@ type
     NextScene2: Integer;
     MadHealth: Integer;
     NoaHealth: Integer;
+    is_delievered: Boolean;
+    PetName: array[1..50] of Char;
   end;
 
   TForm2 = class(TForm)
@@ -30,6 +32,7 @@ type
     lblText: TLabel;
     Button1: TButton;
     Button2: TButton;
+    Edit1: TEdit;
 
 
 
@@ -96,6 +99,8 @@ begin
   imgBackground.Visible := False;
   imgCharacter.Visible := False;
 
+  Edit1.Visible := False;
+
   // Íàñòðîéêà òàéìåðà àâòîñîõðàíåíèÿ
   FAutoSaveTimer := TTimer.Create(Self);
   FAutoSaveTimer.Interval := AutoSaveInterval;
@@ -108,6 +113,9 @@ begin
   JSONObj := TJSONObject.ParseJSONValue(JSONStr) as TJSONObject;
   ScenesArr := JSONObj.GetValue<TJSONArray>('scenes');
   //SetScene;
+
+  FGameState.is_delievered := True;
+
 end;
 
 function HexToColor(const Hex: string): TColor;
@@ -179,6 +187,7 @@ var
   Item: TJSONObject;
   background_filename, sprite_filename, sprite_position: string;
   choices: TJSONArray;
+  GIF: TGIFImage;
 begin
   //if (FGameState.CurrentScene >= 0) and (FGameState.CurrentScene < ScenesArr.Count) then
   //begin
@@ -204,9 +213,24 @@ begin
   background_filename := Item.GetValue<string>('background');
   if FileExists(background_filename) then
     begin
-      imgBackground.Picture.LoadFromFile(background_filename);
-      imgBackground.Stretch := True; // Optional: scales image to fit form
-      imgBackground.Visible := True;
+
+      if LowerCase(ExtractFileExt(background_filename)) = '.gif' then
+        begin
+          GIF := TGIFImage.Create;
+          GIF.LoadFromFile(background_filename);
+          GIF.Animate := True; // Enable animation
+          imgBackground.Picture.Graphic := GIF;
+        end
+      else
+        begin
+          imgBackground.Picture.LoadFromFile(background_filename);
+          imgBackground.Stretch := True; // Optional: scales image to fit form
+          imgBackground.Visible := True;
+        end;
+
+
+
+
     end;
 
   // Loading sprite image
@@ -269,19 +293,46 @@ begin
     end
   else if FGameState.CurrentScene = 122 then
     begin
-      FGameState.NoaHealth := Min(FGameState.NoaHealth + 10, 50);
+      FGameState.NoaHealth := Min(FGameState.NoaHealth + 15, 50);
       lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
     end
   else if FGameState.CurrentScene = 121 then
     begin
-      FGameState.MadHealth := FGameState.MadHealth - 10;
+      FGameState.MadHealth := FGameState.MadHealth - Min(20, FGameState.MadHealth div 2);
       lblText.Caption := lblText.Caption + IntToStr(FGameState.MadHealth) + '/75';
     end
   else if FGameState.CurrentScene = 123 then
     begin
-      FGameState.NoaHealth := FGameState.NoaHealth - 10;
+      FGameState.NoaHealth := FGameState.NoaHealth - Min(10, FGameState.NoaHealth div 2);
       lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
     end;
+
+  // delievery
+  if FGameState.CurrentScene = 14 then
+    begin
+      FGameState.is_delievered := True;
+    end
+  else
+    begin
+      FGameState.is_delievered := False;
+    end;
+
+
+  // pet name
+  if FGameState.CurrentScene = 230 then
+    begin
+      Edit1.Visible := True;
+    end
+  else
+    begin
+      Edit1.Visible := False;
+    end;
+
+  // show pet name
+  if FGameState.CurrentScene = 231 then
+      lblText.Caption := 'Да! ' + string(PChar(@FGameState.PetName[1])) + ' неплохой вариант !';
+
+
 
   EnsureVisible;
 
@@ -397,11 +448,22 @@ end;
 procedure TForm2.NextText;
 begin
   try
-    //CheckGameStarted;
-    // FGameState.CurrentScene := FGameState.CurrentScene + 1;
-    if (FGameState.CurrentScene = 123) and ((FGameState.MadHealth = 5) or (FGameState.NoaHealth = 10)) then
+
+    if FGameState.CurrentScene = 230 then
+      StrPLCopy(@FGameState.PetName[1], Edit1.Text, SizeOf(FGameState.PetName));
+
+
+
+    if (FGameState.CurrentScene = 123) and (FGameState.MadHealth <= 5) then
       begin
         FGameState.CurrentScene := 124;
+        SetScene;
+      end
+    else if (FGameState.CurrentScene = 123) and (FGameState.NoaHealth <= 10) then
+      begin
+        FGameState.CurrentScene := 127;
+        FGameState.MadHealth := 75;
+        FGameState.NoaHealth := 50;
         SetScene;
       end
     else if FGameState.NextScene <> FGameState.CurrentScene then
@@ -409,6 +471,9 @@ begin
         FGameState.CurrentScene := FGameState.NextScene;
         SetScene;
       end;
+
+
+
 //    SaveGame;
   except
     on E: Exception do

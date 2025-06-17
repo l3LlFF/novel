@@ -1392,6 +1392,2085 @@
             { "next": 126 }
         ]  
     },
+    {
+        "id": 127,
+        "background": "..\\..\\assets\\background\\yard.jpg", 
+        "text": "не расстраивайся, попытайся снова",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 103 }
+        ]  
+    },
+    {
+        "id": 126,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 128 }
+        ]  
+    },
+    {
+        "id": 128,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Будильника не слышно.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 129 }
+        ]  
+    },
+    {
+        "id": 129,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Похоже сломался окончательно..",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 130 }
+        ]  
+    },
+    {
+        "id": 130,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "На уже 2 часа дня. За окном должно быть светло, но шторы открывать я не хочу..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 131 }
+        ]  
+    },
+    {
+        "id": 131,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Чем бы заняться сегодня..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 132 }
+        ]  
+    },
+    {
+        "id": 132,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Нужно прибрать дом.. залезть на сайт с вакансиями.. составить эскиз резюме..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 133 }
+        ]  
+    },
+    {
+        "id": 133,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Нужно хотя бы собраться на улицу и..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 134 }
+        ]  
+    },
+    {
+        "id": 134,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "…!!",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\4.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 135 }
+        ]  
+    },
+    {
+        "id": 135,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Да вы издеваетесь…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 136 }
+        ]  
+    },
+    {
+        "id": 136,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "У меня даже знакомых соседей здесь не осталось, мне не должны звонить в двери больше двух раз в месяц…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 137 }
+        ]  
+    },
+    {
+        "id": 137,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "И замолкать он явно не собирается, да?..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 138 }
+        ]  
+    },
+    {
+        "id": 138,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Иду я, иду !!",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 139 }
+        ]  
+    },
+    {
+        "id": 139,
+        "background": "..\\..\\assets\\background\\hall_light.jpg", 
+        "text": "Пол тихонько поскрипывает под ногами.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 140 }
+        ]  
+    },
+    {
+        "id": 140,
+        "background": "..\\..\\assets\\background\\hall_light.jpg", 
+        "text": "Все же открывать дверь кому-то днем гораздо приятнее, нежели ночью.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 141 }
+        ]  
+    },
+    {
+        "id": 141,
+        "background": "..\\..\\assets\\background\\hall_light.jpg", 
+        "text": "Вы неспеша подходите ко входной двери.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 142 }
+        ]  
+    },
+    {
+        "id": 142,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 143 }
+        ]  
+    },
+    {
+        "id": 143,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Господин “крабик”! Вы дома ??",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 144 }
+        ]  
+    },
+    {
+        "id": 144,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Крабик ??...",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 145 }
+        ]  
+    },
+    {
+        "id": 145,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Ох!.. Я знаю кто это..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 146 }
+        ]  
+    },
+    {
+        "id": 146,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Этого мальчика зовут Эван.. кажется. Он иногда приходит продать мне печенье или принести какую-то находку с улицы...",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 147 }
+        ]  
+    },
+    {
+        "id": 147,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Однажды он принес мне шоколадный огнетушитель в натуральную величину…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 148 }
+        ]  
+    },
+    {
+        "id": 148,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "На самом деле я не фанат сладкого, но это было впечатляюще.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 149 }
+        ]  
+    },
+    {
+        "id": 149,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "С тяжелым вздохом вы открываете дверь.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 150 }
+        ]  
+    },
+    {
+        "id": 150,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Господин “крабик” !! Добрый день !",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\evan\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 151 }
+        ]  
+    },
+    {
+        "id": 151,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Здравствуй, Эван.. почему господин “крабик”?",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 152 }
+        ]  
+    },
+    {
+        "id": 152,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "А вы что, забыли ?? Вы как крабики, прячетесь в домике-панцире.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\evan\\0.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 153 }
+        ]  
+    },
+    {
+        "id": 153,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Крабики в таких домиках не  прячутся.. разве что под песок?",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 154 }
+        ]  
+    },
+    {
+        "id": 154,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "ой.. ну тогда под песчаный домик !",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\evan\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 155 }
+        ]  
+    },
+    {
+        "id": 155,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Хорошо.. пусть будет так.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 156 }
+        ]  
+    },
+    {
+        "id": 156,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "С чем пришел в этот раз ?",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 157 }
+        ]  
+    },
+    {
+        "id": 157,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Я принес вам печенье, в этот раз с шоколадной крошкой.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\evan\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 158 }
+        ]  
+    },
+    {
+        "id": 158,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Вот как..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 159 }
+        ]  
+    },
+    {
+        "id": 159,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Послушай.. тут такое дело..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 160 }
+        ]  
+    },
+    {
+        "id": 160,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Неужели я действительно это скажу..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 161 }
+        ]  
+    },
+    {
+        "id": 161,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Вчера я потратил свои последние деньги.. мне нечем заплатить за твое печенье.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 162 }
+        ]  
+    },
+    {
+        "id": 162,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Оу..вот как.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\evan\\0.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 163 }
+        ]  
+    },
+    {
+        "id": 163,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Ну ничего страшного ! Я отдам вам его просто так, взамен вы можете сказать мне “большое спасибо”",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\evan\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 164 }
+        ]  
+    },
+    {
+        "id": 164,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Ахах.. большое спасибо тебе, малец. В следующий раз обязательно что-нибудь приготовлю для тебя заранее.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 165 }
+        ]  
+    },
+    {
+        "id": 165,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Эван протягивает вам блестящую пачку пачку печенья. Вы неловко улыбаетесь, осознавая абсурдность ситуации.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 166 }
+        ]  
+    },
+    {
+        "id": 166,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Вы всегда расплачивались за эти подарки хотя бы несколькими центами, даже если не собирались их есть.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 167 }
+        ]  
+    },
+    {
+        "id": 167,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Приятного аппетита, господин “крабик”! Я зайду к вам завтра.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\evan\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 168 }
+        ]  
+    },
+    {
+        "id": 168,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "До завтра, Эван. Спасибо, что зашел.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 169 }
+        ]  
+    },
+    {
+        "id": 169,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Мальчишка убежал прочь, весело махнув на прощание.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 170 }
+        ]  
+    },
+    {
+        "id": 170,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Вы закрываете дверь и откладываете печенье на полку.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 171 }
+        ]  
+    },
+    {
+        "id": 171,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Надо бы начать день с уборки…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 172 }
+        ]  
+    },
+    {
+        "id": 172,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Сперва…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 173 }
+        ]  
+    },
+    {
+        "id": 174,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Ох, конечно..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 175 }
+        ]  
+    },
+    {
+        "id": 175,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Вы роетесь в кармане и достаете от туда несколько блестящих монет. Мальчик не отрывает от вас глаз.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 176 }
+        ]  
+    },
+    {
+        "id": 176,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Вот.. думаю тут достаточно",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 177 }
+        ]  
+    },
+    {
+        "id": 177,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Спасибо вам !",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\evan\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 178 }
+        ]  
+    },
+    {
+        "id": 178,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Это спасибо тебе, малец. В следующий раз обязательно приготовлю для тебя что-нибудь поинтереснее заранее.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 179 }
+        ]  
+    },
+    {
+        "id": 179,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Эван протягивает вам блестящую пачку пачку печенья.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 180 }
+        ]  
+    },
+    {
+        "id": 180,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Вы всегда расплачивались за эти подарки хотя бы несколькими центами, даже если не собирались их есть.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 181 }
+        ]  
+    },
+    {
+        "id": 181,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "Приятного аппетита, господин “крабик”! Я зайду к вам завтра.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\evan\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 182 }
+        ]  
+    },
+    {
+        "id": 182,
+        "background": "..\\..\\assets\\background\\street_1.jpg", 
+        "text": "До завтра, Эван. Спасибо, что зашел.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 183 }
+        ]  
+    },
+    {
+        "id": 183,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Мальчишка убежал прочь, весело махнув на прощание.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 184 }
+        ]  
+    },
+    {
+        "id": 184,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Вы закрываете дверь и откладываете печенье на полку.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 185 }
+        ]  
+    },
+    {
+        "id": 185,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Надо бы начать день с уборки…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 172 }
+        ]  
+    },
+    {
+        "id": 173,
+        "background": "..\\..\\assets\\background\\door_light.jpg",
+        "text": "Кажется, будильник сегодня особенно громкий.»",
+        "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+        "choices": [
+        { "text": "подмести пол", "next": 186 },
+        { "text": "помыть посуду", "next": 187 }
+        ]  
+    },
+    {
+        "id": 186,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Вы достаете метлу, ранее спрятанную за входную дверь.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 188 }
+        ]  
+    },
+    {
+        "id": 188,
+        "background": "..\\..\\assets\\background\\door_light.jpg", 
+        "text": "Она пахнет многолетней пылью..",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 189 }
+        ]  
+    },
+    {
+        "id": 189,
+        "background": "..\\..\\assets\\background\\hall_light.jpg", 
+        "text": "Тихонько напевая себе под нос, вы перебираетесь с прихожей в коридор, волоча за собой комки пыли.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 190 }
+        ]  
+    },
+    {
+        "id": 190,
+        "background": "..\\..\\assets\\background\\hall_light.jpg", 
+        "text": "Здесь давно не убирались.. В доме как будто никто не живет.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 191 }
+        ]  
+    },
+    {
+        "id": 191,
+        "background": "..\\..\\assets\\background\\hall_light.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 192 }
+        ]  
+    },
+    {
+        "id": 192,
+        "background": "..\\..\\assets\\background\\hall_light.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 193 }
+        ]  
+    },
+    {
+        "id": 193,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Тихонько напевая себе под нос, вы перебираетесь из коридора на кухню.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 194 }
+        ]  
+    },
+    {
+        "id": 194,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 195 }
+        ]  
+    },
+    {
+        "id": 195,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Голова кружится.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 196 }
+        ]  
+    },
+    {
+        "id": 196,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 197 }
+        ]  
+    },
+    {
+        "id": 197,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 198 }
+        ]  
+    },
+    {
+        "id": 198,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Метла вываливается из рук.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 199 }
+        ]  
+    },
+    {
+        "id": 199,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Голова кружится. Вы пытаетесь дойти до стула, но колени предательски подкашиваются",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 200 }
+        ]  
+    },
+    {
+        "id": 200,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 201 }
+        ]  
+    },
+    {
+        "id": 201,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Завтрашний день будет лучше.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 202 }
+        ]  
+    },
+    {
+        "id": 202,
+        "background": "..\\..\\assets\\background\\white.jpg", 
+        "text": "",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 203 }
+        ]  
+    },
+    {
+        "id": 187,
+        "background": "..\\..\\assets\\background\\hall_light.jpg", 
+        "text": "Секунду погодя, вы неспешным шагом идете через коридор на кухню.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 204 }
+        ]  
+    },
+    {
+        "id": 204,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Внушающая башня посуды на краю стола приветствует своим размерным величием.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 205 }
+        ]  
+    },
+    {
+        "id": 205,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Вы осторожно хватаетесь за края самой нижней тарелки, медленно поднимая эту стеклянную конструкцию по направлению к раковине",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 206 }
+        ]  
+    },
+    {
+        "id": 206,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 207 }
+        ]  
+    },
+    {
+        "id": 207,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Вы взяли стеклянный стакан.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 208 }
+        ]  
+    },
+    {
+        "id": 208,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 209 }
+        ]  
+    },
+    {
+        "id": 209,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Вы взяли сковородку",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 210 }
+        ]  
+    },
+    {
+        "id": 210,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 211 }
+        ]  
+    },
+    {
+        "id": 211,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Вы взяли полосатую миску.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 212 }
+        ]  
+    },
+    {
+        "id": 212,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 213 }
+        ]  
+    },
+    {
+        "id": 213,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Вы взяли китайские палочки.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 214 }
+        ]  
+    },
+    {
+        "id": 214,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 215 }
+        ]  
+    },
+    {
+        "id": 215,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Вы взяли кружку с надписью “Не сдавайся”.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 216 }
+        ]  
+    },
+    {
+        "id": 216,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 217 }
+        ]  
+    },
+    {
+        "id": 217,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Голова кружится.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 218 }
+        ]  
+    },
+    {
+        "id": 218,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Вы закончили мыть посуду.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 219 }
+        ]  
+    },
+    {
+        "id": 219,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Похоже, тараканы сегодня остаются без ужина.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 220 }
+        ]  
+    },
+    {
+        "id": 220,
+        "background": "..\\..\\assets\\background\\kitchen_light_1.jpg", 
+        "text": "Голова кружится. Вы пытаетесь дойти до стола, но колени предательски подкашиваются.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 221 }
+        ]  
+    },
+    {
+        "id": 220,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 221 }
+        ]  
+    },
+    {
+        "id": 221,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Завтрашний день будет лучше.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 222 }
+        ]  
+    },
+    {
+        "id": 222,
+        "background": "..\\..\\assets\\background\\white.jpg", 
+        "text": "",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 203 }
+        ]  
+    },
+    {
+        "id": 203,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Рождество – мой самый-самый любимый праздник !",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 223 }
+        ]  
+    },
+    {
+        "id": 223,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Рождество – мой самый-самый любимый праздник !",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 224 }
+        ]  
+    },
+    {
+        "id": 224,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Я всегда считал, что это самый лучший день в году.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 225 }
+        ]  
+    },
+    {
+        "id": 225,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "..После дня рождения разумеется!",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 226 }
+        ]  
+    },
+    {
+        "id": 226,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Мэдисон сегодня должен вернуться поздно, поэтому я не буду спать до его прихода.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 227 }
+        ]  
+    },
+    {
+        "id": 227,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Раз уж сегодня такой особенный день, у него в церкви проводят ооочень важную церемонию.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 228 }
+        ]  
+    },
+    {
+        "id": 228,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Каждый год он от туда приносит какие-нибудь сладости или игрушки ! Надеюсь в этот раз он принесет мне котенка или щенка, как обещал!",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 229 }
+        ]  
+    },
+    {
+        "id": 229,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Надо бы придумать как его назвать.. Пусть будет..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 230 }
+        ]  
+    },
+    {
+        "id": 230,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Надо бы придумать как его назвать.. Пусть будет..",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 231 }
+        ]  
+    },
+    {
+        "id": 231,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 232 }
+        ]  
+    },
+    {
+        "id": 232,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Кажется, я слышал это имя от друзей брата, когда они гнали голубей со двора..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 233 }
+        ]  
+    },
+    {
+        "id": 233,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "…!!",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 234 }
+        ]  
+    },
+    {
+        "id": 234,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "…Родители так не шумели даже когда сильно-сильно ругались..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 235 }
+        ]  
+    },
+    {
+        "id": 235,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 236 }
+        ]  
+    },
+    {
+        "id": 236,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "А что если это грабители ??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 237 }
+        ]  
+    },
+    {
+        "id": 237,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "А что если это мама кричала ??.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 238 }
+        ]  
+    },
+    {
+        "id": 238,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Я должен помочь маме с папой!...",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 239 }
+        ]  
+    },
+    {
+        "id": 239,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "На кухне в ящике лежит отцовский пистолет.. я смогу добраться туда незаметно..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 240 }
+        ]  
+    },
+    {
+        "id": 240,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Только бы успеть!..",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 241 }
+        ]  
+    },
+    {
+        "id": 241,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Стараясь не скрипеть полом, вы осторожно ползете по стенке коридора и пробираетесь на кухню.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 242 }
+        ]  
+    },
+    {
+        "id": 242,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Из гостевой доносятся резкие шорохи и чей-то приглушенный голос.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 243 }
+        ]  
+    },
+    {
+        "id": 243,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Сердце готово выскочить из груди. Кажется, оно заглушает все посторонние звуки.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 244 }
+        ]  
+    },
+    {
+        "id": 244,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Вы тихонько поднимаете стул с места, чтобы не шуметь им по полу, и переставляете к раковине.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 245 }
+        ]  
+    },
+    {
+        "id": 245,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Поспешно вставая на него ногами, вы дрожащими руками открываете верхний ящик.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 246 }
+        ]  
+    },
+    {
+        "id": 246,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "В бумажной обертке, будто бы рождественский подарок, красуется блестящий револьвер.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 247 }
+        ]  
+    },
+    {
+        "id": 247,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Вас никогда прежде не учили им пользоваться, но выбора никакого не оставалось. Вы небрежно разрываете бумагу к клочья, хватая рукоять.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 248 }
+        ]  
+    },
+    {
+        "id": 248,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "..очень тихо.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 249 }
+        ]  
+    },
+    {
+        "id": 249,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Нужно скорее проверить как у мамы с папой дела..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 250 }
+        ]  
+    },
+    {
+        "id": 250,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "В сторону кухни доносятся неспешные тяжелые шаги.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 251 }
+        ]  
+    },
+    {
+        "id": 251,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Вы чувствуете как тело немеет, а холодок, ранее бегающий по спине, уже комом стоит в горле.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 252 }
+        ]  
+    },
+    {
+        "id": 252,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Не теряя времени, вы спрыгиваете со стула и направляете дульный срез на дверной проем.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 253 }
+        ]  
+    },
+    {
+        "id": 253,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Палец нервно подрагивает на курке, выжидая шанс соскочить.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 254 }
+        ]  
+    },
+   {
+        "id": 254,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Я могу с этим справиться.. Я могу.. Я же..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 255 }
+        ]  
+    },
+   {
+        "id": 255,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "….??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 256 }
+        ]  
+    },
+   {
+        "id": 255,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "В дверном проеме возникает высокая фигура.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 256 }
+        ]  
+    },
+   {
+        "id": 256,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Вы должны быть ужасно напуганы, но эта картина, не смотря на “красный цвет”, заставляет облегченно выдохнуть.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 257 }
+        ]  
+    },
+   {
+        "id": 257,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 258 }
+        ]  
+    },
+   {
+        "id": 258,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Ты…??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 259 }
+        ]  
+    },
+   {
+        "id": 259,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Ты вернулся ! Ты видел там чужих людей ?? Я слышал шум и крики !! Ты весь в..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 260 }
+        ]  
+    },
+   {
+        "id": 260,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Ты же одолел всех, да ?? Мама в порядке ??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 261 }
+        ]  
+    },
+   {
+        "id": 261,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 262 }
+        ]  
+    },
+   {
+        "id": 262,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Да. Нарушители получили по заслугам. Мама немного ранена, но помощь уже едет. Не волнуйся.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 263 }
+        ]  
+    },
+   {
+        "id": 263,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Вы медленно опускаете пистолет и бежите к брату. Он выглядит спокойным.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 264 }
+        ]  
+    },
+   {
+        "id": 264,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Ты в порядке ?? Тебя не поранили??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 265 }
+        ]  
+    },
+   {
+        "id": 265,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Не поранили, я в полном порядке.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\4.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 266 }
+        ]  
+    },
+   {
+        "id": 266,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 267 }
+        ]  
+    },
+   {
+        "id": 267,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Я так рад что все хорошо..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\4.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 268 }
+        ]  
+    },
+   {
+        "id": 268,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Ноа.. Давай вернем тебя в комнату..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 269 }
+        ]  
+    },
+   {
+        "id": 269,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "А как же мама ??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 270 }
+        ]  
+    },
+   {
+        "id": 270,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Ей помогает отец. Скоро приедет помощь, не думаю что родители будут рады что ты увидишь весь этот беспорядок.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\4.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 271 }
+        ]  
+    },
+   {
+        "id": 271,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "…Хорошо",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 272 }
+        ]  
+    },
+   {
+        "id": 272,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "…Хорошо",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 273 }
+        ]  
+    },
+   {
+        "id": 273,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Мэдисон бережно забирает у вас пистолет и откладывает его в сторону.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 274 }
+        ]  
+    },
+   {
+        "id": 274,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "Он берет вас за руку и отводит обратно в комнату.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 275 }
+        ]  
+    },
+   {
+        "id": 275,
+        "background": "..\\..\\assets\\background\\kitchen_light.jpg", 
+        "text": "В доме гробовая тишина. С гостевой комнаты несет холодным воздухом, кто-то открыл окно?",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 276 }
+        ]  
+    },
+   {
+        "id": 276,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Вас подводят к незаправленной постели. Вы усаживаетесь на нее, ваш брат бережно обнимает вас за плечи.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 277 }
+        ]  
+    },
+   {
+        "id": 277,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "..Ты пачкаешь мою одежду",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 278 }
+        ]  
+    },
+   {
+        "id": 278,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Извини.. завтра утром ее обязательно постираем.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 279 }
+        ]  
+    },
+   {
+        "id": 279,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Его руки холодные и влажные, но вы стараетесь не предавать этому значения.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 280 }
+        ]  
+    },
+   {
+        "id": 280,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Вы чувствуете себя под защитой. Веки тяжелеют сами собой.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 281 }
+        ]  
+    },
+   {
+        "id": 281,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Завтра будет..",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 282 }
+        ]  
+    },
+   {
+        "id": 282,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 283 }
+        ]  
+    },
+   {
+        "id": 283,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Вы чувствуете как сгиб руки старшего крепко сжимает ваше горло.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 284 }
+        ]  
+    },
+   {
+        "id": 284,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Тяжело дышать.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 285 }
+        ]  
+    },
+   {
+        "id": 285,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Вы резко подрываетесь с места, отталкивая брата от себя. Он смотрит прямо в глаза..",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 286 }
+        ]  
+    },
+   {
+        "id": 286,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "ЧТО ТЫ ДЕЛАЕШЬ ??..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 287 }
+        ]  
+    },
+   {
+        "id": 287,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 288 }
+        ]  
+    },
+   {
+        "id": 288,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "МЭДИ-..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 289 }
+        ]  
+    },
+   {
+        "id": 289,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Ной.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 290 }
+        ]  
+    },
+   {
+        "id": 290,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "…??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 291 }
+        ]  
+    },
+   {
+        "id": 291,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "сколько раз я просил звать меня “Ной”?",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 292 }
+        ]  
+    },
+   {
+        "id": 292,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "ДА КАКАЯ РАЗНИЦА ??.. ЧТО ТЫ..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 293 }
+        ]  
+    },
+   {
+        "id": 293,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Я хотел с тобой по-хорошему.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 294 }
+        ]  
+    },
+   {
+        "id": 294,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "..что ?",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 295 }
+        ]  
+    },
+   {
+        "id": 295,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Эта семья такая жестокая.. эти люди вокруг, которых ты зовешь друзьями..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 296 }
+        ]  
+    },
+   {
+        "id": 296,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Я же забочусь о тебе.. как я могу оставить своего светлого брата в этой черни. Ты не справишься один..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\3.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 297 }
+        ]  
+    },
+   {
+        "id": 297,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "О чем ты говоришь ??..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 298 }
+        ]  
+    },
+   {
+        "id": 298,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Ты не обязан бороться, знаешь ?",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\4.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 299 }
+        ]  
+    },
+   {
+        "id": 299,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Вы хватаете в руки деревянный меч с пола, направляя его на собственного брата.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 300 }
+        ]  
+    },
+   {
+        "id": 300,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Ваш голос содрогается в рыданиях, но остается решительным.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 301 }
+        ]  
+    },
+   {
+        "id": 301,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Как ты только можешь так говорить ?? а как же “борись до конца” и “ты можешь быть кем захочешь”??..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\6.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 302 }
+        ]  
+    },
+   {
+        "id": 302,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Это же не ты!.. Я не буду сдаваться тебе !! Я одолею тебя и.. ты увидишь что не прав !",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\6.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 303 }
+        ]  
+    },
+   {
+        "id": 303,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "И все.. Все снова будет как раньше..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\mini_noa\\6.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 304 }
+        ]  
+    },
+   {
+        "id": 304,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 305 }
+        ]  
+    },
+   {
+        "id": 305,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Ну, тебе виднее.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "left",
+        "choices": [
+            { "next": 306 }
+        ]  
+    },
+   {
+        "id": 306,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Ну, тебе виднее.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 307 }
+        ]  
+    },
+   {
+        "id": 307,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Ной достает из кармана нож, он уже измазан в чужой крови.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 308 }
+        ]  
+    },
+   {
+        "id": 308,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Он выглядит совершенно спокойным, но..",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 309 }
+        ]  
+    },
+   {
+        "id": 309,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Больше он не улыбается.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 310 }
+        ]  
+    },
+   {
+        "id": 310,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Его лицо совершенно хлоднокровно. Это не может быть вашим братом.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 311 }
+        ]  
+    },
+   {
+        "id": 311,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 312 }
+        ]  
+    },
+   {
+        "id": 312,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": 313 }
+        ]  
+    },
+
 
 
     {

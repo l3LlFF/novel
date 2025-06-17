@@ -11482,4 +11482,12 @@ object Form2: TForm2
     TabOrder = 2
     OnClick = Button2Click
   end
+  object Edit1: TEdit
+    Left = 176
+    Top = 168
+    Width = 273
+    Height = 137
+    TabOrder = 3
+    TextHint = #1042#1074#1077#1076#1080#1090#1077' '#1080#1084#1103' '#1087#1080#1090#1086#1084#1094#1072
+  end
 end
