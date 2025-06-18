@@ -1906,7 +1906,8 @@
         "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
         "sprite_position": "left",
         "choices": [
-            { "next": 173 }
+        { "text": "подмести пол", "next": 186 },
+        { "text": "помыть посуду", "next": 187 }
         ]  
     },
     {
@@ -2039,16 +2040,6 @@
         "sprite_position": "left",
         "choices": [
             { "next": 172 }
-        ]  
-    },
-    {
-        "id": 173,
-        "background": "..\\..\\assets\\background\\door_light.jpg",
-        "text": "Кажется, будильник сегодня особенно громкий.»",
-        "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
-        "choices": [
-        { "text": "подмести пол", "next": 186 },
-        { "text": "помыть посуду", "next": 187 }
         ]  
     },
     {
@@ -3464,23 +3455,597 @@
         "background": "..\\..\\assets\\background\\background_2.gif", 
         "text": "",
         "font_color": "#000000",
-        "sprite": null,
-        "sprite_position": "left",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
         "choices": [
-            { "next": 313 }
+        { "text": "Бежать", "next": 313 },
+        { "text": "Бороться", "next": 314 }
+        ]
+    },
+   {
+        "id": 313,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Нет пути назад.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 312 }
         ]  
     },
-
-
-
-    {
-        "id": 22,
-        "background": "..\\..\\assets\\background\\black.jpg",
-        "text": "Кажется, будильник сегодня особенно громкий.»",
-        "sprite": "..\\..\\assets\\sprites\\noa\\0.png",
+   {
+        "id": 314,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Ваш ход",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
         "choices": [
-        { "text": "выва", "next": 1 },
-        { "text": "аааааа", "next": 2 }
+        { "text": "Сосредоточиться", "next": 315 },
+        { "text": "Атаковать", "next": 316 }
+        ]  
+    },
+   {
+        "id": 316,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Вы размахиваете мечом. Ной не сопротивляется. Никакого эффекта..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 317 }
+        ]  
+    },
+   {
+        "id": 317,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Ной замахивается ножом.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 318 }
+        ]  
+    },
+   {
+        "id": 318,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Оставшихся очков 30/50",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 322 }
+        ]  
+    },
+   {
+        "id": 315,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Вы сосредотачиваетесь, готовясь к атаке. Сердце готово выскочить из груди.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 320 }
+        ]  
+    },
+   {
+        "id": 320,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Ной замахивается ножом.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 321 }
+        ]  
+    },
+   {
+        "id": 321,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Оставшихся очков 40/50. Могло быть и хуже.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 322 }
+        ]  
+    },
+   {
+        "id": 322,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Мой дорогой Ноа.. прекрати бороться и прими судьбу как должное.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 323 }
+        ]  
+    },
+   {
+        "id": 323,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Мне гораздо больнее чем тебе. Прекрати.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 324 }
+        ]  
+    },
+   {
+        "id": 324,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Ваш ход",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+        { "text": "Сосредоточиться", "next": 325 },
+        { "text": "Атаковать", "next": 326 }
+        ]  
+    },
+   {
+        "id": 326,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Вы размахиваете мечом. Ной не сопротивляется. Никакого эффекта..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 327 }
+        ]  
+    },
+   {
+        "id": 327,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Ной замахивается ножом.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 328 }
+        ]  
+    },
+   {
+        "id": 328,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Оставшихся очков ",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 332 }
+        ]  
+    },
+   {
+        "id": 325,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Вы сосредотачиваетесь, готовясь к атаке. Его слова ранят в самое сердце.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 330 }
+        ]  
+    },
+   {
+        "id": 330,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Ной замахивается ножом.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 331 }
+        ]  
+    },
+   {
+        "id": 331,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 332 }
+        ]  
+    },
+   {
+        "id": 332,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Неужели ты хочешь остаться жить в этом гнилье ??  Я так сильно старался ради этого.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 333 }
+        ]  
+    },
+   {
+        "id": 333,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Ты хоть раз думал обо мне??",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 334 }
+        ]  
+    },
+   {
+        "id": 334,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Это ради твоего же блага.. ПЕРЕСТАНЬ.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 335 }
+        ]  
+    },
+   {
+        "id": 335,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Ваш ход",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+        { "text": "Сосредоточиться", "next": 336 },
+        { "text": "Атаковать", "next": 337 }
+        ]  
+    },
+   {
+        "id": 337,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Ной замахивается ножом.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 338 }
+        ]  
+    },
+   {
+        "id": 338,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 335 }
+        ]  
+    },
+   {
+        "id": 336,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Вы сосредотачиваетесь, готовясь к атаке. Его слова ранят в самое сердце.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 339 }
+        ]  
+    },
+   {
+        "id": 339,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Ной замахивается ножом.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 340 }
+        ]  
+    },
+   {
+        "id": 340,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 341 }
+        ]  
+    },
+   {
+        "id": 341,
+        "background": "..\\..\\assets\\background\\background_2.gif", 
+        "text": "Я люблю тебя.. прошу, перестань.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\6.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 335 }
+        ]  
+    },
+   {
+        "id": 342,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\2.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 343 }
+        ]  
+    },
+   {
+        "id": 343,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Ладно, мне пора..",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\3.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 344 }
+        ]  
+    },
+   {
+        "id": 344,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "У меня последнее дело на носу.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\4.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 345 }
+        ]  
+    },
+   {
+        "id": 345,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Не раскисай.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\madisson\\4.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 346 }
+        ]  
+    },
+   {
+        "id": 345,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Ной бережно гладит вас по голове. Вы не в силах даже взглянуть на него.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 346 }
+        ]  
+    },
+   {
+        "id": 346,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Он поднимается  и неспешно выходит из комнаты.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 347 }
+        ]  
+    },
+   {
+        "id": 347,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 348 }
+        ]  
+    },
+   {
+        "id": 348,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Скоро прибудет помощь.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 349 }
+        ]  
+    },
+   {
+        "id": 349,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Вы больше не боитесь не успеть. Вы больше не боитесь не попасть на встречу с друзьями. Вы больше не беспокоитесь о том, что попросить на это рождество.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 350 }
+        ]  
+    },
+   {
+        "id": 350,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Голос внутри кричит во все горло:",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 351 }
+        ]  
+    },
+   {
+        "id": 351,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Нет, подождите ! Я же столько еще не сделал !",
+        "font_color": "#0000FF",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 352 }
+        ]  
+    },
+   {
+        "id": 352,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Я же.. Я же еще даже не стал взрослым ! Я еще ни разу не ходил в старшую школу, так и не научился играть на скрипке, не завел щенка или котенка!!",
+        "font_color": "#0000FF",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 353 }
+        ]  
+    },
+   {
+        "id": 353,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Так нечестно..",
+        "font_color": "#0000FF",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 354 }
+        ]  
+    },
+   {
+        "id": 354,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Но не вышло издать ни единого звука.",
+        "font_color": "#FFFFFF",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 355 }
+        ]  
+    },
+   {
+        "id": 355,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "…",
+        "font_color": "#FFFFFF",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 356 }
+        ]  
+    },
+   {
+        "id": 356,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Где-то вдалеке комнат с грохотом распахнулась дверь.",
+        "font_color": "#FFFFFF",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 357 }
+        ]  
+    },
+   {
+        "id": 357,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Множество людей в форме вломились в дом.",
+        "font_color": "#FFFFFF",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 358 }
+        ]  
+    },
+   {
+        "id": 358,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Они точно смогут переубедить Ноя.. смогут помочь родителям.",
+        "font_color": "#FFFFFF",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 359 }
+        ]  
+    },
+   {
+        "id": 359,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Теперь можно спокойно отдохнуть.",
+        "font_color": "#FFFFFF",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 360 }
+        ]  
+    },
+   {
+        "id": 360,
+        "background": "..\\..\\assets\\background\\white.jpg", 
+        "text": "",
+        "font_color": "#FFFFFF",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 361 }
+        ]  
+    },
+   {
+        "id": 361,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 362 }
+        ]  
+    },
+   {
+        "id": 362,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Будильника не слышно.",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 363 }
+        ]  
+    },
+   {
+        "id": 363,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "…",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 364 }
+        ]  
+    },
+   {
+        "id": 364,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "..сегодня",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 365 }
+        ]  
+    },
+   {
+        "id": 365,
+        "background": "..\\..\\assets\\background\\room.jpg", 
+        "text": "Я закончу все свои дела.",
+        "font_color": "#000000",
+        "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
+        "sprite_position": "center",
+        "choices": [
+            { "next": 366 }
+        ]  
+    },
+   {
+        "id": 366,
+        "background": "..\\..\\assets\\background\\black.jpg", 
+        "text": "Спасибо, что поиграли ;)",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "center",
+        "choices": [
+            { "next": 0 }
         ]  
     }
   ]

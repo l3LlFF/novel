@@ -47,6 +47,7 @@ type
     FAutoSaveTimer: TTimer;
     ScenesArr: TJSONArray;
     DialogueArr: TJSONArray;
+    GIF: TGIFImage;
     procedure InitializeGame;
     procedure SetScene;
     procedure ShowSceneElements(ShowBackground, ShowCharacter: Boolean);
@@ -108,13 +109,16 @@ begin
   FAutoSaveTimer.Enabled := True;
 
 
+  GIF := TGIFImage.Create;
+  GIF.LoadFromFile('..\\..\\assets\\background\\background_2.gif');
+  GIF.Animate := True; // Enable animation
 
   JSONStr := TFile.ReadAllText('..\..\dialogs.json', TEncoding.UTF8);
   JSONObj := TJSONObject.ParseJSONValue(JSONStr) as TJSONObject;
   ScenesArr := JSONObj.GetValue<TJSONArray>('scenes');
   //SetScene;
 
-  FGameState.is_delievered := True;
+  FGameState.is_delievered := False;
 
 end;
 
@@ -187,7 +191,7 @@ var
   Item: TJSONObject;
   background_filename, sprite_filename, sprite_position: string;
   choices: TJSONArray;
-  GIF: TGIFImage;
+
 begin
   //if (FGameState.CurrentScene >= 0) and (FGameState.CurrentScene < ScenesArr.Count) then
   //begin
@@ -216,10 +220,11 @@ begin
 
       if LowerCase(ExtractFileExt(background_filename)) = '.gif' then
         begin
-          GIF := TGIFImage.Create;
-          GIF.LoadFromFile(background_filename);
-          GIF.Animate := True; // Enable animation
+
+
+          //imgBackground.Picture.Graphic := nil;
           imgBackground.Picture.Graphic := GIF;
+          imgBackground.Parent.DoubleBuffered := True;
         end
       else
         begin
@@ -305,18 +310,39 @@ begin
     begin
       FGameState.NoaHealth := FGameState.NoaHealth - Min(10, FGameState.NoaHealth div 2);
       lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
+    end
+  // Fight 2
+  else if FGameState.CurrentScene = 328 then
+    begin
+      FGameState.NoaHealth := FGameState.NoaHealth - 20;
+      lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
+    end
+  else if FGameState.CurrentScene = 331 then
+    begin
+      FGameState.NoaHealth := FGameState.NoaHealth - 10;
+      lblText.Caption := 'Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50. Могло быть и хуже.';
+    end
+  else if FGameState.CurrentScene = 338 then
+    begin
+      FGameState.NoaHealth := FGameState.NoaHealth - 20;
+      lblText.Caption := 'Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50.';
+    end
+  else if FGameState.CurrentScene = 340 then
+    begin
+      FGameState.NoaHealth := FGameState.NoaHealth - 10;
+      lblText.Caption := 'Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50. Могло быть и хуже.';
     end;
+
 
   // delievery
   if FGameState.CurrentScene = 14 then
     begin
       FGameState.is_delievered := True;
     end
-  else
+  else if FGameState.CurrentScene = 15 then
     begin
       FGameState.is_delievered := False;
     end;
-
 
   // pet name
   if FGameState.CurrentScene = 230 then
@@ -327,6 +353,26 @@ begin
     begin
       Edit1.Visible := False;
     end;
+
+  // Fight 2, set health
+  if FGameState.CurrentScene = 314 then
+    begin
+      FGameState.MadHealth := 75;
+      FGameState.NoaHealth := 50;
+    end;
+
+  if FGameState.CurrentScene = 318 then
+    begin
+      FGameState.MadHealth := 75;
+      FGameState.NoaHealth := 30;
+    end;
+
+  if FGameState.CurrentScene = 321 then
+    begin
+      FGameState.MadHealth := 75;
+      FGameState.NoaHealth := 40;
+    end;
+
 
   // show pet name
   if FGameState.CurrentScene = 231 then
@@ -428,7 +474,7 @@ end;
 
 procedure TForm2.SafeStartNewGame;
 begin
-  FGameState.CurrentScene := 0;
+  FGameState.CurrentScene := 311;
   SetScene;
 end;
 
@@ -447,13 +493,12 @@ end;
 
 procedure TForm2.NextText;
 begin
-  try
 
+  try
+    // save pet name
     if FGameState.CurrentScene = 230 then
       StrPLCopy(@FGameState.PetName[1], Edit1.Text, SizeOf(FGameState.PetName));
-
-
-
+    // fight 1
     if (FGameState.CurrentScene = 123) and (FGameState.MadHealth <= 5) then
       begin
         FGameState.CurrentScene := 124;
@@ -466,13 +511,32 @@ begin
         FGameState.NoaHealth := 50;
         SetScene;
       end
+    // Delievery
+    else if (FGameState.CurrentScene = 158) and (FGameState.is_delievered = True) then
+      begin
+        FGameState.CurrentScene := 159;
+        SetScene;
+      end
+    else if (FGameState.CurrentScene = 158) and (FGameState.is_delievered = False) then
+      begin
+        FGameState.CurrentScene := 174;
+        SetScene;
+      end
+    else if (FGameState.CurrentScene = 338) and (FGameState.NoaHealth <= 0) then
+      begin
+        FGameState.CurrentScene := 342;
+        SetScene;
+      end
+    else if (FGameState.CurrentScene = 340) and (FGameState.NoaHealth <= 0) then
+      begin
+        FGameState.CurrentScene := 342;
+        SetScene;
+      end
     else if FGameState.NextScene <> FGameState.CurrentScene then
       begin
         FGameState.CurrentScene := FGameState.NextScene;
         SetScene;
-      end;
-
-
+      end
 
 //    SaveGame;
   except
