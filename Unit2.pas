@@ -52,24 +52,13 @@ type
     ScenesArr: TJSONArray;
     DialogueArr: TJSONArray;
     GIF: TGIFImage;
-    procedure InitializeGame;
     procedure SetScene;
-    procedure ShowSceneElements(ShowBackground, ShowCharacter: Boolean);
-    procedure SwitchCharacterImage(Index: Integer);
     procedure NextText;
     procedure Menu;
     procedure SaveGame;
     procedure LoadGame;
-    procedure LoadGameState;
-    procedure UpdateGameVisuals;
-    procedure AutoSaveTimerEvent(Sender: TObject);
     procedure EnsureVisible;
-    procedure SafeStartNewGame;
     procedure CheckGameStarted;
-
-  public
-    procedure StartNewGame;
-    procedure ContinueGame;
   end;
 
 var
@@ -78,9 +67,6 @@ var
 implementation
 
 {$R *.dfm}
-
-uses
-  Unit1;
 
 const
   SaveFileName = 'game_save.dat';
@@ -115,7 +101,6 @@ begin
   // Íàñòðîéêà òàéìåðà àâòîñîõðàíåíèÿ
   FAutoSaveTimer := TTimer.Create(Self);
   FAutoSaveTimer.Interval := AutoSaveInterval;
-  FAutoSaveTimer.OnTimer := AutoSaveTimerEvent;
   FAutoSaveTimer.Enabled := True;
 
 
@@ -164,38 +149,7 @@ begin
 
   Action := caFree;
   Form2 := nil;
-  if Assigned(Form1) then
-    Form1.Show;
 end;
-
-procedure TForm2.InitializeGame;
-begin
-  try
-    if FileExists(SaveFileName) then
-    begin
-      var F: File of TGameState;
-      AssignFile(F, SaveFileName);
-      try
-        Reset(F);
-        Read(F, FGameState);
-      finally
-        CloseFile(F);
-      end;
-      LoadGameState;
-    end
-    else
-    begin
-      SafeStartNewGame;
-    end;
-  except
-    on E: Exception do
-    begin
-      SafeStartNewGame;
-    end;
-  end;
-end;
-
-
 
 
 procedure TForm2.SetScene;
@@ -205,15 +159,6 @@ var
   choices: TJSONArray;
 
 begin
-  //if (FGameState.CurrentScene >= 0) and (FGameState.CurrentScene < ScenesArr.Count) then
-  //begin
-  //  Item := ScenesArr.Items[FGameState.CurrentScene] as TJSONObject;
-  //end;
-  //else
-  //begin
-  //  ShowMessage('Scene index is out of range!');
-  //end;
-
   for var i := 0 to ScenesArr.Count - 1 do
     begin
       item := ScenesArr.Items[i] as TJSONObject;
@@ -244,10 +189,6 @@ begin
           imgBackground.Stretch := True; // Optional: scales image to fit form
           imgBackground.Visible := True;
         end;
-
-
-
-
     end;
 
   // Loading sprite image
@@ -260,7 +201,7 @@ begin
       imgCharacter.Visible := True;
 
       if sprite_position = 'center' then
-        imgCharacter.Left := (Form1.Width - imgCharacter.Width) div 2
+        imgCharacter.Left := (Form2.Width - imgCharacter.Width) div 2
       else if sprite_position = 'left' then
         imgCharacter.Left := 0;
     end
@@ -295,8 +236,6 @@ begin
   // pnlTextContainer.Visible := True;
   lblText.Caption := Item.GetValue<string>('text');
   lblText.Font.Color := HexToColor(Item.GetValue<string>('font_color'));
-
-
 
   // Fight
   if FGameState.CurrentScene = 1190 then
@@ -391,8 +330,6 @@ begin
   if FGameState.CurrentScene = 231 then
       lblText.Caption := 'Да! ' + string(PChar(@FGameState.PetName[1])) + ' неплохой вариант !';
 
-
-
   if FGameState.CurrentScene = -1 then
     begin
       pnlTextContainer.Visible := False;
@@ -409,27 +346,6 @@ begin
 
 end;
 
-
-procedure TForm2.ShowSceneElements(ShowBackground, ShowCharacter: Boolean);
-begin
-  imgBackground.Visible := ShowBackground;
-
-  if ShowCharacter then
-    SwitchCharacterImage(FGameState.CurrentCharacterImage)
-  else
-  begin
-    imgCharacter.Visible := False;
-  end;
-end;
-
-procedure TForm2.SwitchCharacterImage(Index: Integer);
-begin
-  imgCharacter.Visible := True;
-
-  // add image read
-
-  FGameState.CurrentCharacterImage := Index;
-end;
 
 procedure TForm2.SaveGame;
 var
@@ -465,31 +381,6 @@ begin
     SetScene;
 end;
 
-procedure TForm2.LoadGameState;
-begin
-  if FileExists(SaveFileName) then
-    begin
-      var F: File of TGameState;
-      AssignFile(F, SaveFileName);
-      try
-        Reset(F);
-        Read(F, FGameState);
-      finally
-        CloseFile(F);
-      end;
-    end;
-    SetScene;
-end;
-
-procedure TForm2.UpdateGameVisuals;
-begin
-  ShowSceneElements(FGameState.BackgroundVisible, FGameState.CharacterVisible);
-end;
-
-procedure TForm2.AutoSaveTimerEvent(Sender: TObject);
-begin
-  SaveGame;
-end;
 
 procedure TForm2.EnsureVisible;
 begin
@@ -551,24 +442,6 @@ begin
   end;
 end;
 
-procedure TForm2.SafeStartNewGame;
-begin
-  FGameState.CurrentScene := -1;
-  SetScene;
-end;
-
-procedure TForm2.StartNewGame;
-begin
-  if FileExists(SaveFileName) then
-    DeleteFile(SaveFileName);
-
-  SafeStartNewGame;
-end;
-
-procedure TForm2.ContinueGame;
-begin
-  
-end;
 
 procedure TForm2.NextText;
 begin
