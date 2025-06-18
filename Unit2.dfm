@@ -2784,8 +2784,8 @@ object Form2: TForm2
     ExplicitHeight = 105
   end
   object ImgCharacter: TImage
-    Left = 0
-    Top = 48
+    Left = 24
+    Top = -32
     Width = 320
     Height = 321
     Picture.Data = {
@@ -13094,18 +13094,18 @@ object Form2: TForm2
     Visible = False
   end
   object pnlTextContainer: TPanel
-    Left = 8
-    Top = 369
-    Width = 608
-    Height = 64
-    Color = clWhite
+    Left = 48
+    Top = 287
+    Width = 513
+    Height = 126
+    Color = clBtnText
     ParentBackground = False
     TabOrder = 0
     object lblText: TLabel
       Left = 1
       Top = 1
-      Width = 606
-      Height = 62
+      Width = 511
+      Height = 124
       Align = alClient
       Caption = 'lblText'
       Color = clBlack
@@ -13116,13 +13116,14 @@ object Form2: TForm2
       Font.Style = []
       ParentColor = False
       ParentFont = False
-      ExplicitWidth = 53
-      ExplicitHeight = 22
+      ExplicitLeft = 0
+      ExplicitTop = -15
+      ExplicitHeight = 152
     end
   end
   object Button1: TButton
     Left = 408
-    Top = 240
+    Top = 136
     Width = 193
     Height = 33
     Caption = 'Button1'
@@ -13131,7 +13132,7 @@ object Form2: TForm2
   end
   object Button2: TButton
     Left = 408
-    Top = 296
+    Top = 197
     Width = 193
     Height = 33
     Caption = 'Button2'

@@ -72,6 +72,13 @@ const
   SaveFileName = 'game_save.dat';
   AutoSaveInterval = 30000;
 
+
+procedure LoadCustomFont(const FontPath: string);
+begin
+  AddFontResourceEx(PChar(FontPath), FR_PRIVATE, nil);
+  //SendMessage(HWND_BROADCAST, WM_FONTCHANGE, 0, 0);
+end;
+
 procedure TForm2.FormCreate(Sender: TObject);
 var
   JSONStr: string;
@@ -85,6 +92,12 @@ begin
   lblText.Alignment := taCenter;
   lblText.Layout := tlCenter;
 
+
+  LoadCustomFont('..\\..\\assets\\fonts\\Minecraftia-Regular.ttf');
+  lblText.Font.Name := 'Minecraftia';
+  lblText.Font.Size := 10;
+
+
   pnlTextContainer.BevelOuter := bvNone;
   pnlTextContainer.DoubleBuffered := True;
   pnlTextContainer.Visible := False;
@@ -97,6 +110,12 @@ begin
 
   Button1.Visible := False;
   Button2.Visible := False;
+
+  Button1.Font.Name := 'Minecraftia';
+  Button2.Font.Name := 'Minecraftia';
+  Button3.Font.Name := 'Minecraftia';
+  Button4.Font.Name := 'Minecraftia';
+  Edit1.Font.Name := 'Minecraftia';
 
   // Íàñòðîéêà òàéìåðà àâòîñîõðàíåíèÿ
   FAutoSaveTimer := TTimer.Create(Self);
@@ -128,6 +147,10 @@ begin
   B := StrToInt('$' + Copy(Hex, 6, 2));
   Result := RGB(R, G, B);
 end;
+
+
+
+
 
 
 procedure TForm2.FormKeyPress(Sender: TObject; var Key: Char);
