@@ -35,6 +35,7 @@ type
     Edit1: TEdit;
     Button3: TButton;
     Button4: TButton;
+    TextTimer: TTimer;
 
 
 
@@ -46,12 +47,19 @@ type
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
+    procedure TextTimerTimer(Sender: TObject);
+    procedure StartTextAnimation(const Text: string);
   private
     FGameState: TGameState;
     FAutoSaveTimer: TTimer;
     ScenesArr: TJSONArray;
     DialogueArr: TJSONArray;
     GIF: TGIFImage;
+
+    FullText: string;
+    Words: TArray<string>;
+    CurrentWordIndex: Integer;
+
     procedure SetScene;
     procedure NextText;
     procedure Menu;
@@ -149,6 +157,26 @@ begin
 end;
 
 
+procedure TForm2.TextTimerTimer(Sender: TObject);
+begin
+  if CurrentWordIndex < Length(Words) then
+  begin
+    lblText.Caption := lblText.Caption + Words[CurrentWordIndex] + ' ';
+    Inc(CurrentWordIndex);
+  end
+  else
+    TextTimer.Enabled := False;
+end;
+
+
+procedure TForm2.StartTextAnimation(const Text: string);
+begin
+  FullText := Text;
+  Words := FullText.Split([' ']);
+  CurrentWordIndex := 0;
+  lblText.Caption := '';
+  TextTimer.Enabled := True;
+end;
 
 
 
@@ -257,7 +285,8 @@ begin
 
   // Setting dialogue text
   // pnlTextContainer.Visible := True;
-  lblText.Caption := Item.GetValue<string>('text');
+  //lblText.Caption := Item.GetValue<string>('text');
+  StartTextAnimation(Item.GetValue<string>('text'));
   lblText.Font.Color := HexToColor(Item.GetValue<string>('font_color'));
 
   // Fight
