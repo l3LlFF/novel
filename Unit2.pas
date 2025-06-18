@@ -474,7 +474,7 @@ end;
 
 procedure TForm2.SafeStartNewGame;
 begin
-  FGameState.CurrentScene := 311;
+  FGameState.CurrentScene := 0;
   SetScene;
 end;
 
