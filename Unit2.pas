@@ -33,6 +33,8 @@ type
     Button1: TButton;
     Button2: TButton;
     Edit1: TEdit;
+    Button3: TButton;
+    Button4: TButton;
 
 
 
@@ -42,6 +44,8 @@ type
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
   private
     FGameState: TGameState;
     FAutoSaveTimer: TTimer;
@@ -53,7 +57,9 @@ type
     procedure ShowSceneElements(ShowBackground, ShowCharacter: Boolean);
     procedure SwitchCharacterImage(Index: Integer);
     procedure NextText;
+    procedure Menu;
     procedure SaveGame;
+    procedure LoadGame;
     procedure LoadGameState;
     procedure UpdateGameVisuals;
     procedure AutoSaveTimerEvent(Sender: TObject);
@@ -95,12 +101,16 @@ begin
 
   pnlTextContainer.BevelOuter := bvNone;
   pnlTextContainer.DoubleBuffered := True;
+  pnlTextContainer.Visible := False;
 
   // Èçíà÷àëüíî ñêðûâàåì âñå ýëåìåíòû
-  imgBackground.Visible := False;
+  imgBackground.Visible := True;
   imgCharacter.Visible := False;
 
   Edit1.Visible := False;
+
+  Button1.Visible := False;
+  Button2.Visible := False;
 
   // Íàñòðîéêà òàéìåðà àâòîñîõðàíåíèÿ
   FAutoSaveTimer := TTimer.Create(Self);
@@ -116,10 +126,12 @@ begin
   JSONStr := TFile.ReadAllText('..\..\dialogs.json', TEncoding.UTF8);
   JSONObj := TJSONObject.ParseJSONValue(JSONStr) as TJSONObject;
   ScenesArr := JSONObj.GetValue<TJSONArray>('scenes');
-  //SetScene;
+
+
+  Form2.KeyPreview := True;
 
   FGameState.is_delievered := False;
-
+  //SetScene;
 end;
 
 function HexToColor(const Hex: string): TColor;
@@ -137,7 +149,7 @@ procedure TForm2.FormKeyPress(Sender: TObject; var Key: Char);
 begin
   case Key of
     #13: NextText;      // Enter - ñëåäóþùèé òåêñò
-    #27: Close;         // Escape - çàêðûòü èãðó
+    #27: Menu;         // Escape - çàêðûòü èãðó
     's', 'S': SaveGame; // Ðó÷íîå ñîõðàíåíèå
   end;
 end;
@@ -280,6 +292,7 @@ begin
     end;
 
   // Setting dialogue text
+  // pnlTextContainer.Visible := True;
   lblText.Caption := Item.GetValue<string>('text');
   lblText.Font.Color := HexToColor(Item.GetValue<string>('font_color'));
 
@@ -380,6 +393,18 @@ begin
 
 
 
+  if FGameState.CurrentScene = -1 then
+    begin
+      pnlTextContainer.Visible := False;
+
+    end
+  else
+    begin
+      pnlTextContainer.Visible := True;
+      Button3.Visible := False;
+      Button4.Visible := False;
+    end;
+
   EnsureVisible;
 
 end;
@@ -424,9 +449,36 @@ begin
   end;
 end;
 
+procedure TForm2.LoadGame;
+begin
+  if FileExists(SaveFileName) then
+    begin
+      var F: File of TGameState;
+      AssignFile(F, SaveFileName);
+      try
+        Reset(F);
+        Read(F, FGameState);
+      finally
+        CloseFile(F);
+      end;
+    end;
+    SetScene;
+end;
+
 procedure TForm2.LoadGameState;
 begin
-
+  if FileExists(SaveFileName) then
+    begin
+      var F: File of TGameState;
+      AssignFile(F, SaveFileName);
+      try
+        Reset(F);
+        Read(F, FGameState);
+      finally
+        CloseFile(F);
+      end;
+    end;
+    SetScene;
 end;
 
 procedure TForm2.UpdateGameVisuals;
@@ -463,6 +515,33 @@ begin
   SetScene;
 end;
 
+// Start new game button
+procedure TForm2.Button3Click(Sender: TObject);
+begin
+  FGameState.CurrentScene := 0;
+  Button3.Visible := False;
+  Button4.Visible := False;
+  Button1.Visible := True;
+  Button2.Visible := True;
+  SetScene;
+end;
+
+procedure TForm2.Button4Click(Sender: TObject);
+begin
+  LoadGame;
+end;
+
+// Start new game button
+procedure TForm2.Menu;
+begin
+  FGameState.CurrentScene := -1;
+  Button3.Visible := True;
+  Button4.Visible := True;
+  Button1.Visible := False;
+  Button2.Visible := False;
+  SetScene;
+end;
+
 procedure TForm2.CheckGameStarted;
 begin
   if not FGameState.GameStarted then
@@ -474,7 +553,7 @@ end;
 
 procedure TForm2.SafeStartNewGame;
 begin
-  FGameState.CurrentScene := 0;
+  FGameState.CurrentScene := -1;
   SetScene;
 end;
 
@@ -493,7 +572,6 @@ end;
 
 procedure TForm2.NextText;
 begin
-
   try
     // save pet name
     if FGameState.CurrentScene = 230 then
@@ -536,9 +614,9 @@ begin
       begin
         FGameState.CurrentScene := FGameState.NextScene;
         SetScene;
-      end
+      end;
 
-//    SaveGame;
+    SaveGame;
   except
     on E: Exception do
     begin

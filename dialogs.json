@@ -1,6 +1,17 @@
 {
   "scenes": [
     {
+        "id": -1,
+        "background": "..\\..\\assets\\background\\menu.jpg",
+        "text": "",
+        "font_color": "#000000",
+        "sprite": null,
+        "sprite_position": "left",
+        "choices": [
+            { "next": -1 }
+        ]  
+    },
+    {
         "id": 0,
         "background": "..\\..\\assets\\background\\black.jpg",
         "text": "Кажется, будильник сегодня особенно громкий.",
@@ -4045,7 +4056,7 @@
         "sprite": null,
         "sprite_position": "center",
         "choices": [
-            { "next": 0 }
+            { "next": -1 }
         ]  
     }
   ]
