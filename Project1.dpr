@@ -2,7 +2,8 @@
 
 uses
   Vcl.Forms,
-  Unit2 in 'Unit2.pas' {Form2};
+  Unit2 in 'Unit2.pas' {Form2},
+  SoundManager in 'SoundManager.pas';
 
 {$R *.res}
 

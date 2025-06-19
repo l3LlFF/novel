@@ -6,7 +6,8 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs,
   Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Imaging.pngimage, Vcl.Imaging.jpeg,
-  System.JSON, System.IOUtils, Math, Vcl.Imaging.GIFImg;
+  System.JSON, System.IOUtils, Math, Vcl.Imaging.GIFImg, MMSystem,
+  SoundManager;
 
 type
   TGameState = record
@@ -56,6 +57,7 @@ type
     DialogueArr: TJSONArray;
     GIF: TGIFImage;
     previous_background: string;
+    previous_audio: string;
     FullText: string;
     Words: TArray<string>;
     CurrentWordIndex: Integer;
@@ -139,6 +141,7 @@ begin
   JSONObj := TJSONObject.ParseJSONValue(JSONStr) as TJSONObject;
   ScenesArr := JSONObj.GetValue<TJSONArray>('scenes');
 
+  PlaySound('..\\..\\assets\\audio\\menu.wav', 0, SND_FILENAME or SND_ASYNC or SND_LOOP);
 
   Form2.KeyPreview := True;
 
@@ -203,11 +206,13 @@ begin
 end;
 
 
+
 procedure TForm2.SetScene;
 var
   Item: TJSONObject;
-  background_filename, sprite_filename, sprite_position: string;
+  background_filename, sprite_filename, sprite_position, audio_filename: string;
   choices: TJSONArray;
+  audio_looped: boolean;
 
 begin
   for var i := 0 to ScenesArr.Count - 1 do
@@ -242,6 +247,22 @@ begin
         end;
       previous_background := background_filename;
     end;
+
+
+  audio_filename := Item.GetValue<string>('audio');
+  audio_looped := Item.GetValue<boolean>('audio_looped');
+
+
+  if (audio_filename <> previous_audio) and (audio_filename <> '') then
+    if audio_looped then
+      //PlaySound(PWideChar(audio_filename), 0, SND_FILENAME or SND_ASYNC or SND_LOOP)
+      PlayLoopedSound(audio_filename)
+    else
+      PlaySound(PWideChar(audio_filename), 0, SND_FILENAME or SND_ASYNC)
+  else if audio_filename = '' then
+    PlaySound(nil, 0, 0);
+
+  previous_audio := audio_filename;
 
   // Loading sprite image
   sprite_filename := Item.GetValue<string>('sprite');
