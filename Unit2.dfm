@@ -7803,7 +7803,7 @@ object Form2: TForm2
   end
   object TextTimer: TTimer
     Enabled = False
-    Interval = 300
+    Interval = 25
     OnTimer = TextTimerTimer
     Left = 8
     Top = 24

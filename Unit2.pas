@@ -55,7 +55,7 @@ type
     ScenesArr: TJSONArray;
     DialogueArr: TJSONArray;
     GIF: TGIFImage;
-
+    previous_background: string;
     FullText: string;
     Words: TArray<string>;
     CurrentWordIndex: Integer;
@@ -159,9 +159,9 @@ end;
 
 procedure TForm2.TextTimerTimer(Sender: TObject);
 begin
-  if CurrentWordIndex < Length(Words) then
+  if CurrentWordIndex < Length(FullText) + 1 then
   begin
-    lblText.Caption := lblText.Caption + Words[CurrentWordIndex] + ' ';
+    lblText.Caption := lblText.Caption + FullText[CurrentWordIndex];
     Inc(CurrentWordIndex);
   end
   else
@@ -172,8 +172,8 @@ end;
 procedure TForm2.StartTextAnimation(const Text: string);
 begin
   FullText := Text;
-  Words := FullText.Split([' ']);
-  CurrentWordIndex := 0;
+  //Words := FullText.Split([' ']);
+  CurrentWordIndex := 1;
   lblText.Caption := '';
   TextTimer.Enabled := True;
 end;
@@ -223,7 +223,7 @@ begin
 
   // Loading background image
   background_filename := Item.GetValue<string>('background');
-  if FileExists(background_filename) then
+  if FileExists(background_filename) and (previous_background <> background_filename) then
     begin
 
       if LowerCase(ExtractFileExt(background_filename)) = '.gif' then
@@ -240,6 +240,7 @@ begin
           imgBackground.Stretch := True; // Optional: scales image to fit form
           imgBackground.Visible := True;
         end;
+      previous_background := background_filename;
     end;
 
   // Loading sprite image
@@ -303,38 +304,45 @@ begin
   else if FGameState.CurrentScene = 122 then
     begin
       FGameState.NoaHealth := Min(FGameState.NoaHealth + 15, 50);
-      lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
+      //lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
+      StartTextAnimation('Мэдисон швыряет шарик с водой. Он пролетает мимо. Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50');
     end
   else if FGameState.CurrentScene = 121 then
     begin
       FGameState.MadHealth := FGameState.MadHealth - Min(20, FGameState.MadHealth div 2);
-      lblText.Caption := lblText.Caption + IntToStr(FGameState.MadHealth) + '/75';
+      //lblText.Caption := lblText.Caption + IntToStr(FGameState.MadHealth) + '/75';
+      StartTextAnimation('Вы толкаете Мэдисона. Он невольно покачивается.. Оставшихся очков Мэдисона ' + IntToStr(FGameState.MadHealth) + '/75');
     end
   else if FGameState.CurrentScene = 123 then
     begin
       FGameState.NoaHealth := FGameState.NoaHealth - Min(10, FGameState.NoaHealth div 2);
-      lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
+      //lblText.Caption := 'Мэдисон швыряет шарик с водой. Меткое попадание. Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50';
+      StartTextAnimation('Мэдисон швыряет шарик с водой. Меткое попадание. Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50');
     end
   // Fight 2
   else if FGameState.CurrentScene = 328 then
     begin
       FGameState.NoaHealth := FGameState.NoaHealth - 20;
-      lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
+      //lblText.Caption := lblText.Caption + IntToStr(FGameState.NoaHealth) + '/50';
+      StartTextAnimation('Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50');
     end
   else if FGameState.CurrentScene = 331 then
     begin
       FGameState.NoaHealth := FGameState.NoaHealth - 10;
-      lblText.Caption := 'Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50. Могло быть и хуже.';
+      //lblText.Caption := 'Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50. Могло быть и хуже.';
+      StartTextAnimation('Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50. Могло быть и хуже.');
     end
   else if FGameState.CurrentScene = 338 then
     begin
       FGameState.NoaHealth := FGameState.NoaHealth - 20;
-      lblText.Caption := 'Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50.';
+      //lblText.Caption := 'Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50.';
+      StartTextAnimation('Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50.');
     end
   else if FGameState.CurrentScene = 340 then
     begin
       FGameState.NoaHealth := FGameState.NoaHealth - 10;
-      lblText.Caption := 'Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50. Могло быть и хуже.';
+      //lblText.Caption := 'Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50. Могло быть и хуже.';
+      StartTextAnimation('Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50. Могло быть и хуже.');
     end;
 
 
@@ -380,7 +388,8 @@ begin
 
   // show pet name
   if FGameState.CurrentScene = 231 then
-      lblText.Caption := 'Да! ' + string(PChar(@FGameState.PetName[1])) + ' неплохой вариант !';
+      //lblText.Caption := 'Да! ' + string(PChar(@FGameState.PetName[1])) + ' неплохой вариант !';
+      StartTextAnimation('Да! ' + string(PChar(@FGameState.PetName[1])) + ' неплохой вариант !');
 
   if FGameState.CurrentScene = -1 then
     begin

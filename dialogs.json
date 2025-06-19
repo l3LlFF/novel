@@ -2468,17 +2468,6 @@
         "sprite": null,
         "sprite_position": "left",
         "choices": [
-            { "next": 223 }
-        ]  
-    },
-    {
-        "id": 223,
-        "background": "..\\..\\assets\\background\\black.jpg", 
-        "text": "Рождество – мой самый-самый любимый праздник !",
-        "font_color": "#FFFFFF",
-        "sprite": null,
-        "sprite_position": "left",
-        "choices": [
             { "next": 224 }
         ]  
     },
