@@ -37,6 +37,8 @@ type
     Button3: TButton;
     Button4: TButton;
     TextTimer: TTimer;
+    Panel1: TPanel;
+    Label1: TLabel;
 
 
 
@@ -102,15 +104,28 @@ begin
   lblText.Alignment := taCenter;
   lblText.Layout := tlCenter;
 
+  Label1.WordWrap := True;
+  Label1.AutoSize := False;
+  Label1.Align := alClient;
+  Label1.Alignment := taCenter;
+  Label1.Layout := tlCenter;
 
   LoadCustomFont('..\\..\\assets\\fonts\\Minecraftia-Regular.ttf');
   lblText.Font.Name := 'Minecraftia';
   lblText.Font.Size := 10;
 
+  Label1.Font.Name := 'Minecraftia';
+  Label1.Font.Size := 10;
 
-  pnlTextContainer.BevelOuter := bvNone;
+
+  //pnlTextContainer.BevelOuter := bvNone;
   pnlTextContainer.DoubleBuffered := True;
   pnlTextContainer.Visible := False;
+
+  //Panel1.BevelOuter := bvNone;
+  Panel1.DoubleBuffered := True;
+  Panel1.Visible := False;
+
 
   // Èçíà÷àëüíî ñêðûâàåì âñå ýëåìåíòû
   imgBackground.Visible := True;
@@ -210,7 +225,7 @@ end;
 procedure TForm2.SetScene;
 var
   Item: TJSONObject;
-  background_filename, sprite_filename, sprite_position, audio_filename: string;
+  background_filename, sprite_filename, sprite_position, audio_filename, character_name: string;
   choices: TJSONArray;
   audio_looped: boolean;
 
@@ -264,6 +279,22 @@ begin
 
   previous_audio := audio_filename;
 
+  // Load a character name
+  character_name := Item.GetValue<string>('character_name');
+  if character_name <> '' then
+    begin
+      Label1.Visible := true;
+      Panel1.Visible := true;
+      Label1.Caption := character_name;
+    end
+  else
+    begin
+      Label1.Visible := false;
+      Panel1.Visible := false;
+      Label1.Caption := '';
+    end;
+
+
   // Loading sprite image
   sprite_filename := Item.GetValue<string>('sprite');
   sprite_position := Item.GetValue<string>('sprite_position');
@@ -309,9 +340,31 @@ begin
   // pnlTextContainer.Visible := True;
   //lblText.Caption := Item.GetValue<string>('text');
   StartTextAnimation(Item.GetValue<string>('text'));
+
   lblText.Font.Color := HexToColor(Item.GetValue<string>('font_color'));
+  Label1.Font.Color := HexToColor(Item.GetValue<string>('font_color'));
 
   // Fight
+
+  if (FGameState.CurrentScene = 101) or (FGameState.CurrentScene = 103) or (FGameState.CurrentScene = 114) or (FGameState.CurrentScene = 119) or (FGameState.CurrentScene = 312) or (FGameState.CurrentScene = 314) or (FGameState.CurrentScene = 324) or (FGameState.CurrentScene = 335) then
+    begin
+      Button1.Left := 120;
+      Button1.Top := 415;
+
+
+      Button2.Left := 410;
+      Button2.Top := 415;
+    end
+  else
+    begin
+      Button1.Left := 408;
+      Button1.Top := 135;
+
+
+      Button2.Left := 408;
+      Button2.Top := 197;
+    end;
+
   if FGameState.CurrentScene = 1190 then
     begin
       FGameState.MadHealth := 75;
@@ -366,6 +419,11 @@ begin
       StartTextAnimation('Оставшихся очков ' + IntToStr(FGameState.NoaHealth) + '/50. Могло быть и хуже.');
     end;
 
+  if FGameState.CurrentScene = -1 then
+    begin
+      Button3.Visible := true;
+      Button4.Visible := true;
+    end;
 
   // delievery
   if FGameState.CurrentScene = 14 then

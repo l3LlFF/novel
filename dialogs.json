@@ -13,7 +13,8 @@
                     "next": -1
                 }
             ],
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 0,
@@ -28,7 +29,8 @@
                     "next": 1
                 }
             ],
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 1,
@@ -43,7 +45,8 @@
                     "next": 2
                 }
             ],
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 2,
@@ -58,7 +61,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 3,
@@ -73,7 +77,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\urchanie.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 4,
@@ -88,7 +93,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 5,
@@ -103,7 +109,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 6,
@@ -118,7 +125,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 7,
@@ -133,7 +141,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 8,
@@ -153,7 +162,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 9,
@@ -168,7 +178,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\holodilnik.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 10,
@@ -183,7 +194,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\urchanie.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 11,
@@ -198,7 +210,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\holodilnik.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 12,
@@ -213,7 +226,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\holodilnik.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 13,
@@ -233,7 +247,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\holodilnik.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 14,
@@ -248,7 +263,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\gudki.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 16,
@@ -263,7 +279,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\gudki.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 17,
@@ -278,7 +295,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 18,
@@ -293,7 +311,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 19,
@@ -308,7 +327,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 20,
@@ -323,7 +343,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 21,
@@ -338,7 +359,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 22,
@@ -353,7 +375,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 23,
@@ -368,7 +391,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 24,
@@ -383,7 +407,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 25,
@@ -398,7 +423,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 26,
@@ -413,7 +439,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 27,
@@ -428,7 +455,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\stuk_serdca.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 28,
@@ -443,7 +471,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 29,
@@ -458,7 +487,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvuk_serdca.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 30,
@@ -473,7 +503,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Доставщик"
         },
         {
             "id": 31,
@@ -488,7 +519,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 32,
@@ -503,7 +535,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 33,
@@ -518,7 +551,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 34,
@@ -533,7 +567,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Доставщик"
         },
         {
             "id": 35,
@@ -548,7 +583,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 36,
@@ -563,7 +599,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 37,
@@ -578,7 +615,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 38,
@@ -593,11 +631,12 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 39,
-            "background": "..\\..\\assets\\background\\kitchen.jpg",
+            "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
             "text": "Горячая лапша приятно греет руки через тонкий слой картона. Оно того стоило..",
             "font_color": "#FFFFFF",
             "sprite": null,
@@ -608,11 +647,12 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 40,
-            "background": "..\\..\\assets\\background\\kitchen.jpg",
+            "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
             "text": "Вы садитесь на недавно остывший стул, пахнет вкусно.",
             "font_color": "#FFFFFF",
             "sprite": null,
@@ -623,11 +663,12 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 41,
-            "background": "..\\..\\assets\\background\\kitchen.jpg",
+            "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
             "text": "…",
             "font_color": "#FFFFFF",
             "sprite": null,
@@ -638,11 +679,12 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 42,
-            "background": "..\\..\\assets\\background\\kitchen.jpg",
+            "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
             "text": "К сожалению, о вкусе этой бюджетной лапши так же не скажешь.",
             "font_color": "#FFFFFF",
             "sprite": null,
@@ -653,11 +695,12 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 43,
-            "background": "..\\..\\assets\\background\\kitchen.jpg",
+            "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
             "text": "Под приятное чувство благодарного желудка вы откладываете пустую коробку к символичной башне посуды.",
             "font_color": "#FFFFFF",
             "sprite": null,
@@ -668,11 +711,12 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 44,
-            "background": "..\\..\\assets\\background\\kitchen.jpg",
+            "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
             "text": "Завтрашний ужин будет лучше, я уверен..",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\noa\\2.png",
@@ -683,11 +727,12 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 45,
-            "background": "..\\..\\assets\\background\\kitchen.jpg",
+            "background": "..\\..\\assets\\background\\kitchen_dark.jpg",
             "text": "…после того как я найду работу, конечно же",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\noa\\1.png",
@@ -698,7 +743,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 46,
@@ -713,7 +759,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 47,
@@ -728,7 +775,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 48,
@@ -743,7 +791,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 49,
@@ -758,7 +807,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 50,
@@ -773,7 +823,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 51,
@@ -788,7 +839,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 52,
@@ -803,7 +855,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 15,
@@ -818,7 +871,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 54,
@@ -833,7 +887,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 55,
@@ -848,7 +903,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 56,
@@ -863,7 +919,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 57,
@@ -878,7 +935,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 58,
@@ -893,7 +951,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 59,
@@ -908,7 +967,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 60,
@@ -923,7 +983,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 61,
@@ -938,7 +999,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 62,
@@ -953,7 +1015,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 63,
@@ -968,7 +1031,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 64,
@@ -983,7 +1047,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 65,
@@ -998,7 +1063,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 66,
@@ -1013,7 +1079,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 67,
@@ -1028,7 +1095,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 68,
@@ -1043,7 +1111,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 69,
@@ -1058,7 +1127,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 70,
@@ -1073,7 +1143,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 71,
@@ -1088,7 +1159,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 72,
@@ -1103,7 +1175,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 72,
@@ -1118,7 +1191,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 73,
@@ -1133,7 +1207,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\shepot.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 74,
@@ -1148,7 +1223,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 75,
@@ -1163,7 +1239,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\skrimer.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 76,
@@ -1178,7 +1255,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 77,
@@ -1193,12 +1271,13 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 78,
             "background": "..\\..\\assets\\background\\kitchen_light.jpg",
-            "text": "Сегодня Мэди приготовил замечательный завтрак !",
+            "text": "Сегодня Нойи приготовил замечательный завтрак !",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\mini_noa\\1.png",
             "sprite_position": "left",
@@ -1208,7 +1287,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 79,
@@ -1223,7 +1303,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 80,
@@ -1238,7 +1319,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 81,
@@ -1253,7 +1335,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 82,
@@ -1268,7 +1351,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 83,
@@ -1283,7 +1367,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 84,
@@ -1298,7 +1383,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 85,
@@ -1313,7 +1399,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 86,
@@ -1328,7 +1415,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 87,
@@ -1343,7 +1431,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 88,
@@ -1358,7 +1447,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 89,
@@ -1373,7 +1463,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 90,
@@ -1388,7 +1479,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 91,
@@ -1403,7 +1495,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 92,
@@ -1418,7 +1511,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 93,
@@ -1433,7 +1527,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 94,
@@ -1448,7 +1543,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 95,
@@ -1463,7 +1559,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 96,
@@ -1478,7 +1575,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 97,
@@ -1493,7 +1591,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 98,
@@ -1508,7 +1607,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 99,
@@ -1523,7 +1623,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 100,
@@ -1538,7 +1639,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 101,
@@ -1558,7 +1660,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 102,
@@ -1573,7 +1676,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 104,
@@ -1588,7 +1692,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 105,
@@ -1603,7 +1708,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 106,
@@ -1618,7 +1724,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 107,
@@ -1633,7 +1740,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 108,
@@ -1648,7 +1756,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 109,
@@ -1663,12 +1772,13 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 103,
             "background": "..\\..\\assets\\background\\yard.jpg",
-            "text": "Ваш ход",
+            "text": "",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
             "sprite_position": "center",
@@ -1683,7 +1793,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 111,
@@ -1698,7 +1809,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 113,
@@ -1713,7 +1825,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 112,
@@ -1728,7 +1841,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 115,
@@ -1743,12 +1857,13 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 114,
             "background": "..\\..\\assets\\background\\yard.jpg",
-            "text": "Ваш ход",
+            "text": "",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
             "sprite_position": "center",
@@ -1763,7 +1878,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 116,
@@ -1778,7 +1894,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 118,
@@ -1793,7 +1910,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 117,
@@ -1808,7 +1926,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 1190,
@@ -1823,12 +1942,13 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 119,
             "background": "..\\..\\assets\\background\\yard.jpg",
-            "text": "Ваш ход",
+            "text": "",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\madisson\\1.png",
             "sprite_position": "center",
@@ -1843,7 +1963,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 120,
@@ -1858,7 +1979,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 122,
@@ -1873,7 +1995,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 121,
@@ -1888,7 +2011,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 123,
@@ -1903,7 +2027,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 124,
@@ -1918,7 +2043,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 125,
@@ -1933,7 +2059,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 127,
@@ -1948,7 +2075,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэдисcон"
         },
         {
             "id": 126,
@@ -1963,7 +2091,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 128,
@@ -1978,7 +2107,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 129,
@@ -1993,12 +2123,13 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 130,
             "background": "..\\..\\assets\\background\\room.jpg",
-            "text": "На уже 2 часа дня. За окном должно быть светло, но шторы открывать я не хочу..",
+            "text": "На часах уже 2 часа дня. За окном должно быть светло, но шторы открывать я не хочу..",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\noa\\3.png",
             "sprite_position": "left",
@@ -2008,7 +2139,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 131,
@@ -2023,7 +2155,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 132,
@@ -2038,7 +2171,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 133,
@@ -2053,7 +2187,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 134,
@@ -2068,7 +2203,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 135,
@@ -2083,7 +2219,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 136,
@@ -2098,7 +2235,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 137,
@@ -2113,7 +2251,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 138,
@@ -2128,7 +2267,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 139,
@@ -2143,7 +2283,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 140,
@@ -2158,7 +2299,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 141,
@@ -2173,7 +2315,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 142,
@@ -2188,7 +2331,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 143,
@@ -2203,7 +2347,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\zvonok.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 144,
@@ -2218,7 +2363,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 145,
@@ -2233,7 +2379,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 146,
@@ -2248,7 +2395,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 147,
@@ -2263,7 +2411,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 148,
@@ -2278,7 +2427,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 149,
@@ -2293,7 +2443,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 150,
@@ -2308,7 +2459,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Эван"
         },
         {
             "id": 151,
@@ -2323,7 +2475,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 152,
@@ -2338,7 +2491,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Эван"
         },
         {
             "id": 153,
@@ -2353,7 +2507,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 154,
@@ -2368,7 +2523,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Эван"
         },
         {
             "id": 155,
@@ -2383,7 +2539,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 156,
@@ -2398,7 +2555,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 157,
@@ -2413,7 +2571,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Эван"
         },
         {
             "id": 158,
@@ -2428,7 +2587,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 159,
@@ -2443,7 +2603,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 160,
@@ -2458,7 +2619,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 161,
@@ -2473,7 +2635,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 162,
@@ -2488,7 +2651,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Эван"
         },
         {
             "id": 163,
@@ -2503,7 +2667,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Эван"
         },
         {
             "id": 164,
@@ -2518,7 +2683,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 165,
@@ -2533,7 +2699,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 166,
@@ -2548,7 +2715,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 167,
@@ -2563,7 +2731,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Эван"
         },
         {
             "id": 168,
@@ -2578,7 +2747,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 169,
@@ -2593,7 +2763,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 170,
@@ -2608,7 +2779,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 171,
@@ -2623,7 +2795,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 172,
@@ -2643,7 +2816,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 174,
@@ -2658,7 +2832,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 175,
@@ -2673,7 +2848,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 176,
@@ -2688,7 +2864,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 177,
@@ -2703,7 +2880,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Эван"
         },
         {
             "id": 178,
@@ -2718,7 +2896,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 179,
@@ -2733,7 +2912,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 180,
@@ -2748,7 +2928,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 181,
@@ -2763,7 +2944,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Эван"
         },
         {
             "id": 182,
@@ -2778,7 +2960,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ноа"
         },
         {
             "id": 183,
@@ -2793,7 +2976,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 184,
@@ -2808,7 +2992,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 185,
@@ -2823,7 +3008,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 186,
@@ -2838,7 +3024,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 188,
@@ -2853,7 +3040,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 189,
@@ -2868,7 +3056,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\metla.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 190,
@@ -2883,7 +3072,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 191,
@@ -2898,7 +3088,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\metla.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 192,
@@ -2913,7 +3104,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\metla.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 193,
@@ -2928,7 +3120,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 194,
@@ -2943,7 +3136,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\metla.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 195,
@@ -2958,7 +3152,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 196,
@@ -2973,7 +3168,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\metla.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 197,
@@ -2988,7 +3184,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\metla.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 198,
@@ -3003,7 +3200,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 199,
@@ -3018,7 +3216,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 200,
@@ -3032,8 +3231,9 @@
                     "next": 201
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\metla.wav",
-            "audio_looped": false
+            "audio": "..\\..\\assets\\audio\\grohot.wav",
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 201,
@@ -3048,7 +3248,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 202,
@@ -3063,7 +3264,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 187,
@@ -3078,7 +3280,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 204,
@@ -3093,7 +3296,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 205,
@@ -3108,7 +3312,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 206,
@@ -3123,7 +3328,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 207,
@@ -3138,7 +3344,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 208,
@@ -3153,7 +3360,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 209,
@@ -3168,7 +3376,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 210,
@@ -3183,7 +3392,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 211,
@@ -3198,7 +3408,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 212,
@@ -3213,7 +3424,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 213,
@@ -3228,7 +3440,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 214,
@@ -3243,7 +3456,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 215,
@@ -3258,7 +3472,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 216,
@@ -3273,7 +3488,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 217,
@@ -3288,7 +3504,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\voda.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 218,
@@ -3303,7 +3520,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 219,
@@ -3318,7 +3536,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 220,
@@ -3333,7 +3552,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 220,
@@ -3348,7 +3568,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\grohot.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 221,
@@ -3363,7 +3584,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 222,
@@ -3378,7 +3600,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 203,
@@ -3393,7 +3616,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 224,
@@ -3408,7 +3632,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 225,
@@ -3423,7 +3648,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 226,
@@ -3438,7 +3664,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 227,
@@ -3453,7 +3680,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 228,
@@ -3468,7 +3696,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 229,
@@ -3483,7 +3712,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 230,
@@ -3498,7 +3728,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 231,
@@ -3513,7 +3744,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 232,
@@ -3528,7 +3760,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 233,
@@ -3543,7 +3776,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\krik.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 234,
@@ -3558,7 +3792,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 235,
@@ -3573,7 +3808,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\grohot.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 236,
@@ -3588,7 +3824,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 237,
@@ -3603,7 +3840,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\grohot.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 238,
@@ -3618,7 +3856,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 239,
@@ -3633,7 +3872,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 240,
@@ -3648,7 +3888,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 241,
@@ -3663,7 +3904,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\grohot.wav",
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 242,
@@ -3678,7 +3920,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 243,
@@ -3693,7 +3936,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 244,
@@ -3708,7 +3952,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 245,
@@ -3723,7 +3968,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 246,
@@ -3738,7 +3984,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 247,
@@ -3753,7 +4000,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 248,
@@ -3768,7 +4016,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 249,
@@ -3783,7 +4032,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 250,
@@ -3798,7 +4048,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 251,
@@ -3813,7 +4064,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 252,
@@ -3828,7 +4080,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 253,
@@ -3843,7 +4096,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 254,
@@ -3858,7 +4112,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 255,
@@ -3873,7 +4128,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 255,
@@ -3888,7 +4144,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 256,
@@ -3903,7 +4160,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 257,
@@ -3918,7 +4176,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэд"
         },
         {
             "id": 258,
@@ -3933,7 +4192,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 259,
@@ -3948,7 +4208,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 260,
@@ -3963,7 +4224,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 261,
@@ -3978,7 +4240,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэд"
         },
         {
             "id": 262,
@@ -3993,7 +4256,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэд"
         },
         {
             "id": 263,
@@ -4008,7 +4272,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 264,
@@ -4023,7 +4288,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 265,
@@ -4038,7 +4304,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэд"
         },
         {
             "id": 266,
@@ -4053,7 +4320,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 267,
@@ -4068,7 +4336,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 268,
@@ -4083,7 +4352,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэд"
         },
         {
             "id": 269,
@@ -4098,7 +4368,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 270,
@@ -4113,7 +4384,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэд"
         },
         {
             "id": 271,
@@ -4128,7 +4400,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 272,
@@ -4143,7 +4416,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 273,
@@ -4158,7 +4432,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 274,
@@ -4173,7 +4448,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 275,
@@ -4188,7 +4464,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 276,
@@ -4203,7 +4480,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 277,
@@ -4218,7 +4496,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 278,
@@ -4233,7 +4512,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэд"
         },
         {
             "id": 279,
@@ -4248,7 +4528,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 280,
@@ -4263,7 +4544,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 281,
@@ -4278,7 +4560,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 282,
@@ -4293,7 +4576,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 283,
@@ -4308,7 +4592,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 284,
@@ -4323,7 +4608,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 285,
@@ -4338,7 +4624,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 286,
@@ -4353,7 +4640,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 287,
@@ -4368,7 +4656,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Мэд"
         },
         {
             "id": 288,
@@ -4383,7 +4672,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 289,
@@ -4398,7 +4688,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ной"
         },
         {
             "id": 290,
@@ -4413,7 +4704,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 291,
@@ -4428,7 +4720,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ной"
         },
         {
             "id": 292,
@@ -4443,7 +4736,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 293,
@@ -4458,7 +4752,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ной"
         },
         {
             "id": 294,
@@ -4473,7 +4768,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ной"
         },
         {
             "id": 295,
@@ -4488,7 +4784,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ной"
         },
         {
             "id": 296,
@@ -4503,7 +4800,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ной"
         },
         {
             "id": 297,
@@ -4518,7 +4816,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 298,
@@ -4533,7 +4832,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ной"
         },
         {
             "id": 299,
@@ -4548,7 +4848,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 300,
@@ -4563,7 +4864,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 301,
@@ -4578,7 +4880,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 302,
@@ -4593,7 +4896,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 303,
@@ -4608,7 +4912,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 304,
@@ -4623,7 +4928,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ной"
         },
         {
             "id": 305,
@@ -4638,7 +4944,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ной"
         },
         {
             "id": 306,
@@ -4653,7 +4960,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 307,
@@ -4668,7 +4976,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 308,
@@ -4683,7 +4992,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 309,
@@ -4698,7 +5008,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 310,
@@ -4713,7 +5024,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 311,
@@ -4728,7 +5040,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 312,
@@ -4748,7 +5061,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 313,
@@ -4763,12 +5077,13 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 314,
             "background": "..\\..\\assets\\background\\background_2.gif",
-            "text": "Ваш ход",
+            "text": "",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\mad\\6.png",
             "sprite_position": "center",
@@ -4783,7 +5098,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 316,
@@ -4798,7 +5114,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 317,
@@ -4813,7 +5130,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 318,
@@ -4828,7 +5146,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 315,
@@ -4843,7 +5162,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 320,
@@ -4858,7 +5178,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 321,
@@ -4873,7 +5194,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 322,
@@ -4888,7 +5210,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 323,
@@ -4903,12 +5226,13 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 324,
             "background": "..\\..\\assets\\background\\background_2.gif",
-            "text": "Ваш ход",
+            "text": "",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\mad\\6.png",
             "sprite_position": "center",
@@ -4923,7 +5247,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 326,
@@ -4938,7 +5263,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 327,
@@ -4953,7 +5279,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 328,
@@ -4968,7 +5295,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 325,
@@ -4983,7 +5311,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 330,
@@ -4998,7 +5327,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 331,
@@ -5013,7 +5343,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 332,
@@ -5028,7 +5359,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 333,
@@ -5043,7 +5375,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 334,
@@ -5058,12 +5391,13 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 335,
             "background": "..\\..\\assets\\background\\background_2.gif",
-            "text": "Ваш ход",
+            "text": "",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\mad\\6.png",
             "sprite_position": "center",
@@ -5078,7 +5412,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 337,
@@ -5093,7 +5428,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 338,
@@ -5108,7 +5444,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 336,
@@ -5123,7 +5460,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 339,
@@ -5138,7 +5476,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 340,
@@ -5153,7 +5492,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 341,
@@ -5168,7 +5508,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\boy_2.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 342,
@@ -5183,7 +5524,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ной"
         },
         {
             "id": 343,
@@ -5198,7 +5540,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 344,
@@ -5213,7 +5556,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 345,
@@ -5228,7 +5572,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": "Ной"
         },
         {
             "id": 345,
@@ -5243,7 +5588,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 346,
@@ -5258,7 +5604,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 347,
@@ -5273,7 +5620,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 348,
@@ -5288,7 +5636,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 349,
@@ -5303,7 +5652,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 350,
@@ -5318,7 +5668,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 351,
@@ -5333,7 +5684,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 352,
@@ -5348,7 +5700,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 353,
@@ -5363,7 +5716,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 354,
@@ -5378,7 +5732,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 355,
@@ -5393,7 +5748,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 356,
@@ -5408,7 +5764,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 357,
@@ -5423,7 +5780,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 358,
@@ -5438,7 +5796,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 359,
@@ -5453,7 +5812,8 @@
                 }
             ],
             "audio": "..\\..\\assets\\audio\\sirena.wav",
-            "audio_looped": true
+            "audio_looped": true,
+            "character_name": null
         },
         {
             "id": 360,
@@ -5468,7 +5828,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 361,
@@ -5483,7 +5844,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 362,
@@ -5498,7 +5860,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         },
         {
             "id": 363,
@@ -5513,7 +5876,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 364,
@@ -5528,7 +5892,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 365,
@@ -5543,7 +5908,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": "Ноа"
         },
         {
             "id": 366,
@@ -5558,7 +5924,8 @@
                 }
             ],
             "audio": null,
-            "audio_looped": false
+            "audio_looped": false,
+            "character_name": null
         }
     ]
 }

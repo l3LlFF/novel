@@ -7744,7 +7744,7 @@ object Form2: TForm2
       Height = 124
       Align = alClient
       Caption = 'lblText'
-      Color = clBlack
+      Color = clWhite
       Font.Charset = RUSSIAN_CHARSET
       Font.Color = clWindowText
       Font.Height = -18
@@ -7800,6 +7800,29 @@ object Form2: TForm2
     Caption = #1055#1088#1086#1076#1086#1083#1078#1080#1090#1100
     TabOrder = 5
     OnClick = Button4Click
+  end
+  object Panel1: TPanel
+    Left = 448
+    Top = 258
+    Width = 113
+    Height = 30
+    Color = clBackground
+    ParentBackground = False
+    TabOrder = 6
+    object Label1: TLabel
+      Left = 1
+      Top = 1
+      Width = 111
+      Height = 28
+      Align = alClient
+      Caption = 'Label1'
+      Color = clWhite
+      ParentColor = False
+      ExplicitLeft = 8
+      ExplicitTop = 7
+      ExplicitWidth = 98
+      ExplicitHeight = 23
+    end
   end
   object TextTimer: TTimer
     Enabled = False
