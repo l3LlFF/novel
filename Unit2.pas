@@ -31,14 +31,18 @@ type
     imgCharacter: TImage;
     pnlTextContainer: TPanel;
     lblText: TLabel;
-    Button1: TButton;
-    Button2: TButton;
     Edit1: TEdit;
-    Button3: TButton;
-    Button4: TButton;
     TextTimer: TTimer;
     Panel1: TPanel;
     Label1: TLabel;
+    Image1: TImage;
+    LabelImage1: TLabel;
+    Image2: TImage;
+    LabelImage2: TLabel;
+    Image3: TImage;
+    Image4: TImage;
+    LabelImage3: TLabel;
+    LabelImage4: TLabel;
 
 
 
@@ -48,10 +52,12 @@ type
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
-    procedure Button3Click(Sender: TObject);
-    procedure Button4Click(Sender: TObject);
     procedure TextTimerTimer(Sender: TObject);
     procedure StartTextAnimation(const Text: string);
+    procedure Image1Click(Sender: TObject);
+    procedure Image2Click(Sender: TObject);
+    procedure Image3Click(Sender: TObject);
+    procedure Image4Click(Sender: TObject);
   private
     FGameState: TGameState;
     FAutoSaveTimer: TTimer;
@@ -104,11 +110,25 @@ begin
   lblText.Alignment := taCenter;
   lblText.Layout := tlCenter;
 
+
   Label1.WordWrap := True;
   Label1.AutoSize := False;
   Label1.Align := alClient;
   Label1.Alignment := taCenter;
   Label1.Layout := tlCenter;
+
+  LabelImage1.Enabled := False;
+  LabelImage1.Font.Color := clWhite;
+
+  LabelImage2.Enabled := False;
+  LabelImage2.Font.Color := clWhite;
+
+  LabelImage3.Enabled := False;
+  LabelImage4.Enabled := False;
+
+  LabelImage3.Font.Color := clWhite;
+  LabelImage4.Font.Color := clWhite;
+
 
   LoadCustomFont('..\\..\\assets\\fonts\\Minecraftia-Regular.ttf');
   lblText.Font.Name := 'Minecraftia';
@@ -116,6 +136,18 @@ begin
 
   Label1.Font.Name := 'Minecraftia';
   Label1.Font.Size := 10;
+
+  LabelImage1.Font.Name := 'Minecraftia';
+  LabelImage1.Font.Size := 10;
+
+  LabelImage2.Font.Name := 'Minecraftia';
+  LabelImage2.Font.Size := 10;
+
+  LabelImage3.Font.Name := 'Minecraftia';
+  LabelImage3.Font.Size := 10;
+
+  LabelImage4.Font.Name := 'Minecraftia';
+  LabelImage4.Font.Size := 10;
 
 
   //pnlTextContainer.BevelOuter := bvNone;
@@ -133,13 +165,20 @@ begin
 
   Edit1.Visible := False;
 
-  Button1.Visible := False;
-  Button2.Visible := False;
+  LabelImage1.Visible := False;
+  LabelImage2.Visible := False;
+  Image1.Visible := False;
+  Image2.Visible := False;
 
-  Button1.Font.Name := 'Minecraftia';
-  Button2.Font.Name := 'Minecraftia';
-  Button3.Font.Name := 'Minecraftia';
-  Button4.Font.Name := 'Minecraftia';
+  LabelImage3.Visible := True;
+  LabelImage4.Visible := True;
+  Image3.Visible := True;
+  Image4.Visible := True;
+
+  LabelImage1.Font.Name := 'Minecraftia';
+  LabelImage2.Font.Name := 'Minecraftia';
+  LabelImage3.Font.Name := 'Minecraftia';
+  LabelImage4.Font.Name := 'Minecraftia';
   Edit1.Font.Name := 'Minecraftia';
 
   // Íàñòðîéêà òàéìåðà àâòîñîõðàíåíèÿ
@@ -206,6 +245,37 @@ begin
     #27: Menu;         // Escape - çàêðûòü èãðó
     's', 'S': SaveGame; // Ðó÷íîå ñîõðàíåíèå
   end;
+end;
+
+procedure TForm2.Image1Click(Sender: TObject);
+begin
+  FGameState.CurrentScene := FGameState.NextScene1;
+  SetScene;
+end;
+
+procedure TForm2.Image2Click(Sender: TObject);
+begin
+  FGameState.CurrentScene := FGameState.NextScene2;
+  SetScene;
+end;
+
+procedure TForm2.Image3Click(Sender: TObject);
+begin
+  FGameState.CurrentScene := 0;
+  LabelImage3.Visible := False;
+  LabelImage4.Visible := False;
+  Image3.Visible := False;
+  Image4.Visible := False;
+  LabelImage1.Visible := True;
+  LabelImage2.Visible := True;
+  Image1.Visible := True;
+  Image2.Visible := True;
+  SetScene;
+end;
+
+procedure TForm2.Image4Click(Sender: TObject);
+begin
+  LoadGame;
 end;
 
 procedure TForm2.FormClose(Sender: TObject; var Action: TCloseAction);
@@ -318,11 +388,18 @@ begin
   DialogueArr := Item.GetValue<TJSONArray>('choices');
   if DialogueArr.Count = 2 then
     begin
-      Button1.Caption := DialogueArr.Items[0].GetValue<string>('text');
-      Button2.Caption := DialogueArr.Items[1].GetValue<string>('text');
+      //Button1.Caption := DialogueArr.Items[0].GetValue<string>('text');
+      //Button2.Caption := DialogueArr.Items[1].GetValue<string>('text');
+      LabelImage1.Caption := DialogueArr.Items[0].GetValue<string>('text');
+      LabelImage2.Caption := DialogueArr.Items[1].GetValue<string>('text');
 
-      Button1.Visible := True;
-      Button2.Visible := True;
+      //Button1.Visible := True;
+      //Button2.Visible := True;
+
+      LabelImage1.Visible := True;
+      LabelImage2.Visible := True;
+      Image1.Visible := True;
+      Image2.Visible := True;
 
       FGameState.NextScene1 := DialogueArr.Items[0].GetValue<integer>('next');
       FGameState.NextScene2 := DialogueArr.Items[1].GetValue<integer>('next');
@@ -331,8 +408,14 @@ begin
     end
   else if DialogueArr.Count = 1 then
     begin
-      Button1.Visible := False;
-      Button2.Visible := False;
+      //Button1.Visible := False;
+      //Button2.Visible := False;
+
+      Image1.Visible := False;
+      Image2.Visible := False;
+      LabelImage1.Visible := False;
+      LabelImage2.Visible := False;
+
       FGameState.NextScene := DialogueArr.Items[0].GetValue<integer>('next');
     end;
 
@@ -343,26 +426,50 @@ begin
 
   lblText.Font.Color := HexToColor(Item.GetValue<string>('font_color'));
   Label1.Font.Color := HexToColor(Item.GetValue<string>('font_color'));
+  LabelImage1.Font.Color := HexToColor(Item.GetValue<string>('font_color'));
+  LabelImage2.Font.Color := HexToColor(Item.GetValue<string>('font_color'));
 
   // Fight
-
   if (FGameState.CurrentScene = 101) or (FGameState.CurrentScene = 103) or (FGameState.CurrentScene = 114) or (FGameState.CurrentScene = 119) or (FGameState.CurrentScene = 312) or (FGameState.CurrentScene = 314) or (FGameState.CurrentScene = 324) or (FGameState.CurrentScene = 335) then
     begin
-      Button1.Left := 120;
-      Button1.Top := 415;
+
+      Image1.Parent := pnlTextContainer;
+      Image2.Parent := pnlTextContainer;
+
+      LabelImage1.Parent := pnlTextContainer;
+      LabelImage2.Parent := pnlTextContainer;
 
 
-      Button2.Left := 410;
-      Button2.Top := 415;
+      Image1.Left := 40;
+      Image1.Top := 50;
+      Image2.Left := 368;
+      Image2.Top := 50;
+
+      LabelImage1.Left := 40;
+      LabelImage1.Top := 60;
+      LabelImage2.Left := 368;
+      LabelImage2.Top := 60;
+
+
     end
   else
     begin
-      Button1.Left := 408;
-      Button1.Top := 135;
 
+      Image1.Parent := Form2;
+      Image2.Parent := Form2;
 
-      Button2.Left := 408;
-      Button2.Top := 197;
+      LabelImage1.Parent := Form2;
+      LabelImage2.Parent := Form2;
+
+      Image1.Left := 438;
+      Image1.Top := 135;
+      Image2.Left := 438;
+      Image2.Top := 200;
+
+      LabelImage1.Left := 438;
+      LabelImage1.Top := 145;
+      LabelImage2.Left := 438;
+      LabelImage2.Top := 210;
     end;
 
   if FGameState.CurrentScene = 1190 then
@@ -421,8 +528,12 @@ begin
 
   if FGameState.CurrentScene = -1 then
     begin
-      Button3.Visible := true;
-      Button4.Visible := true;
+
+
+      Image3.Visible := true;
+      Image4.Visible := true;
+      LabelImage3.Visible := true;
+      LabelImage4.Visible := true;
     end;
 
   // delievery
@@ -478,8 +589,12 @@ begin
   else
     begin
       pnlTextContainer.Visible := True;
-      Button3.Visible := False;
-      Button4.Visible := False;
+
+
+      Image3.Visible := False;
+      Image4.Visible := False;
+      LabelImage3.Visible := False;
+      LabelImage4.Visible := False;
     end;
 
   EnsureVisible;
@@ -546,30 +661,17 @@ begin
   SetScene;
 end;
 
-// Start new game button
-procedure TForm2.Button3Click(Sender: TObject);
-begin
-  FGameState.CurrentScene := 0;
-  Button3.Visible := False;
-  Button4.Visible := False;
-  Button1.Visible := True;
-  Button2.Visible := True;
-  SetScene;
-end;
 
-procedure TForm2.Button4Click(Sender: TObject);
-begin
-  LoadGame;
-end;
 
 // Start new game button
 procedure TForm2.Menu;
 begin
   FGameState.CurrentScene := -1;
-  Button3.Visible := True;
-  Button4.Visible := True;
-  Button1.Visible := False;
-  Button2.Visible := False;
+
+  LabelImage1.Visible := False;
+  LabelImage2.Visible := False;
+  Image1.Visible := False;
+  Image2.Visible := False;
   SetScene;
 end;
 
