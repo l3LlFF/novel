@@ -486,7 +486,7 @@
                     "next": 30
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\zvuk_serdca.wav",
+            "audio": "..\\..\\assets\\audio\\stuk_serdca.wav",
             "audio_looped": false,
             "character_name": null
         },
