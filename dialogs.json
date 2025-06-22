@@ -4591,8 +4591,8 @@
                     "next": 284
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
@@ -4607,8 +4607,8 @@
                     "next": 285
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
@@ -4623,8 +4623,8 @@
                     "next": 286
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
@@ -4639,8 +4639,8 @@
                     "next": 287
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ноа"
         },
         {
@@ -4655,8 +4655,8 @@
                     "next": 288
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Мэд"
         },
         {
@@ -4671,8 +4671,8 @@
                     "next": 289
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ноа"
         },
         {
@@ -4687,8 +4687,8 @@
                     "next": 290
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ной"
         },
         {
@@ -4703,8 +4703,8 @@
                     "next": 291
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ноа"
         },
         {
@@ -4719,8 +4719,8 @@
                     "next": 292
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ной"
         },
         {
@@ -4735,8 +4735,8 @@
                     "next": 293
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ноа"
         },
         {
@@ -4751,8 +4751,8 @@
                     "next": 294
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ной"
         },
         {
@@ -4767,8 +4767,8 @@
                     "next": 295
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+             "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ноа"
         },
         {
@@ -4783,8 +4783,8 @@
                     "next": 296
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ной"
         },
         {
@@ -4799,8 +4799,8 @@
                     "next": 297
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ной"
         },
         {
@@ -4815,8 +4815,8 @@
                     "next": 298
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ноа"
         },
         {
@@ -4831,8 +4831,8 @@
                     "next": 299
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ной"
         },
         {
@@ -4847,8 +4847,8 @@
                     "next": 300
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
@@ -4863,8 +4863,8 @@
                     "next": 301
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
@@ -4879,8 +4879,8 @@
                     "next": 302
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ноа"
         },
         {
@@ -4895,8 +4895,8 @@
                     "next": 303
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ноа"
         },
         {
@@ -4911,8 +4911,8 @@
                     "next": 304
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ноа"
         },
         {
@@ -4927,8 +4927,8 @@
                     "next": 305
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ной"
         },
         {
@@ -4943,14 +4943,14 @@
                     "next": 306
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": "Ной"
         },
         {
             "id": 306,
             "background": "..\\..\\assets\\background\\room.jpg",
-            "text": "Ну, тебе виднее.",
+            "text": "",
             "font_color": "#FFFFFF",
             "sprite": null,
             "sprite_position": "left",
@@ -4959,8 +4959,8 @@
                     "next": 307
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
@@ -4975,8 +4975,8 @@
                     "next": 308
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
@@ -4991,8 +4991,8 @@
                     "next": 309
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
@@ -5007,8 +5007,8 @@
                     "next": 310
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
@@ -5023,8 +5023,8 @@
                     "next": 311
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
@@ -5039,8 +5039,8 @@
                     "next": 312
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\finalniy_dialog.wav",
+            "audio_looped": true,
             "character_name": null
         },
         {
