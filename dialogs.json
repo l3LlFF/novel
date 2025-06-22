@@ -1133,7 +1133,7 @@
         {
             "id": 70,
             "background": "..\\..\\assets\\background\\door.jpg",
-            "text": "Его лицо размыто память.",
+            "text": "Его лицо размыто памятью.",
             "font_color": "#FFFFFF",
             "sprite": null,
             "sprite_position": "left",
@@ -1277,7 +1277,7 @@
         {
             "id": 78,
             "background": "..\\..\\assets\\background\\kitchen_light.jpg",
-            "text": "Сегодня Нойи приготовил замечательный завтрак !",
+            "text": "Сегодня Мэди приготовил замечательный завтрак !",
             "font_color": "#FFFFFF",
             "sprite": "..\\..\\assets\\sprites\\mini_noa\\1.png",
             "sprite_position": "left",
@@ -1400,7 +1400,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 86,
@@ -1432,7 +1432,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 88,
@@ -1464,7 +1464,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 90,
@@ -1496,7 +1496,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 92,
@@ -1512,7 +1512,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 93,
@@ -1592,7 +1592,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 98,
@@ -1624,7 +1624,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\ulica.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 100,
@@ -1661,7 +1661,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 102,
@@ -1709,7 +1709,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 106,
@@ -1725,7 +1725,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 107,
@@ -1757,7 +1757,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 109,
@@ -1794,7 +1794,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 111,
@@ -1810,7 +1810,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 113,
@@ -1826,7 +1826,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 112,
@@ -1842,7 +1842,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 115,
@@ -1858,7 +1858,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 114,
@@ -1879,7 +1879,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 116,
@@ -1895,7 +1895,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 118,
@@ -1911,7 +1911,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 117,
@@ -1927,7 +1927,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 1190,
@@ -1943,7 +1943,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 119,
@@ -1964,7 +1964,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 120,
@@ -1980,7 +1980,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 122,
@@ -1996,7 +1996,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 121,
@@ -2012,7 +2012,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 123,
@@ -2028,7 +2028,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 124,
@@ -2044,7 +2044,7 @@
             ],
             "audio": "..\\..\\assets\\audio\\boy_1.wav",
             "audio_looped": true,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 125,
@@ -2060,7 +2060,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 127,
@@ -2076,7 +2076,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Мэдисcон"
+            "character_name": "Мэдисон"
         },
         {
             "id": 126,
@@ -4760,7 +4760,7 @@
             "background": "..\\..\\assets\\background\\room.jpg",
             "text": "..что ?",
             "font_color": "#FFFFFF",
-            "sprite": "..\\..\\assets\\sprites\\mad\\2.png",
+            "sprite": "..\\..\\assets\\sprites\\mini_noa\\5.png",
             "sprite_position": "left",
             "choices": [
                 {
@@ -4769,7 +4769,7 @@
             ],
             "audio": null,
             "audio_looped": false,
-            "character_name": "Ной"
+            "character_name": "Ноа"
         },
         {
             "id": 295,
@@ -5523,8 +5523,8 @@
                     "next": 343
                 }
             ],
-            "audio": null,
-            "audio_looped": false,
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
+            "audio_looped": true,
             "character_name": "Ной"
         },
         {
@@ -5539,7 +5539,7 @@
                     "next": 344
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": "Ной"
         },
@@ -5555,7 +5555,7 @@
                     "next": 345
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": "Ной"
         },
@@ -5571,7 +5571,7 @@
                     "next": 346
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": "Ной"
         },
@@ -5587,7 +5587,7 @@
                     "next": 346
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5603,7 +5603,7 @@
                     "next": 347
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5619,7 +5619,7 @@
                     "next": 348
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5635,7 +5635,7 @@
                     "next": 349
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5651,7 +5651,7 @@
                     "next": 350
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5667,7 +5667,7 @@
                     "next": 351
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5683,7 +5683,7 @@
                     "next": 352
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5699,7 +5699,7 @@
                     "next": 353
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5715,7 +5715,7 @@
                     "next": 354
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5731,7 +5731,7 @@
                     "next": 355
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5747,7 +5747,7 @@
                     "next": 356
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5763,7 +5763,7 @@
                     "next": 357
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5779,7 +5779,7 @@
                     "next": 358
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5795,7 +5795,7 @@
                     "next": 359
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
@@ -5811,7 +5811,7 @@
                     "next": 360
                 }
             ],
-            "audio": "..\\..\\assets\\audio\\sirena.wav",
+            "audio": "..\\..\\assets\\audio\\stolko_vsego_ne_uspel.wav",
             "audio_looped": true,
             "character_name": null
         },
