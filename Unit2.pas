@@ -103,7 +103,6 @@ var
   JSONObj, Item: TJSONObject;
   //DialogueArr, ChoicesArr: TJSONArray;
 begin
-  // Íàñòðîéêà ýëåìåíòîâ èíòåðôåéñà
   lblText.WordWrap := True;
   lblText.AutoSize := False;
   lblText.Align := alClient;
@@ -181,7 +180,7 @@ begin
   LabelImage4.Font.Name := 'Minecraftia';
   Edit1.Font.Name := 'Minecraftia';
 
-  // Íàñòðîéêà òàéìåðà àâòîñîõðàíåíèÿ
+
   FAutoSaveTimer := TTimer.Create(Self);
   FAutoSaveTimer.Interval := AutoSaveInterval;
   FAutoSaveTimer.Enabled := True;
@@ -241,9 +240,9 @@ end;
 procedure TForm2.FormKeyPress(Sender: TObject; var Key: Char);
 begin
   case Key of
-    #13: NextText;      // Enter - ñëåäóþùèé òåêñò
-    #27: Menu;         // Escape - çàêðûòü èãðó
-    's', 'S': SaveGame; // Ðó÷íîå ñîõðàíåíèå
+    #13: NextText;      // Enter - следующая сцена
+    #27: Menu;         // Escape - выход в меню
+    's', 'S': SaveGame; // сохранение
   end;
 end;
 
@@ -679,7 +678,7 @@ procedure TForm2.CheckGameStarted;
 begin
   if not FGameState.GameStarted then
   begin
-    ShowMessage('Âû íå íà÷èíàëè íîâóþ èãðó');
+    ShowMessage('Вы не начинали новую игру');
     Abort;
   end;
 end;
@@ -735,7 +734,7 @@ begin
   except
     on E: Exception do
     begin
-      // Ïîäàâëÿåì îøèáêó, íî ïðîäîëæàåì ðàáîòó
+      // Подавляем ошибку, но продолжаем работу
     end;
   end;
 end;

@@ -7859,8 +7859,8 @@ object Form2: TForm2
     object lblText: TLabel
       Left = 1
       Top = 1
-      Width = 511
-      Height = 124
+      Width = 53
+      Height = 22
       Align = alClient
       Caption = 'lblText'
       Color = clWhite
@@ -7871,8 +7871,6 @@ object Form2: TForm2
       Font.Style = []
       ParentColor = False
       ParentFont = False
-      ExplicitLeft = 0
-      ExplicitTop = -15
     end
     object Image1: TImage
       Left = 40
@@ -8018,16 +8016,12 @@ object Form2: TForm2
     object Label1: TLabel
       Left = 1
       Top = 1
-      Width = 111
-      Height = 28
+      Width = 34
+      Height = 15
       Align = alClient
       Caption = 'Label1'
       Color = clWhite
       ParentColor = False
-      ExplicitLeft = 8
-      ExplicitTop = 7
-      ExplicitWidth = 98
-      ExplicitHeight = 23
     end
   end
   object TextTimer: TTimer
